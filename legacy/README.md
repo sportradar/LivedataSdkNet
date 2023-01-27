@@ -8,6 +8,14 @@ especially with the release of new and updated XML feed versions.
 
 # ChangeLog:
 
+## 2.26.0.0 2023-01-26
+MatchUpdate extended with new property - SubTeam
+MatchHeader extended with new property - VbpClassification
+ScoutEvent extended with new poperty - PitchingSubstitution
+OddsSuggestions, ScoutOdds, ScoutOddsField had been removed from SDK
+Changed default value for SchemaValidationStrictness from 'STRICT' to 'ON'
+Added new configuration properties for logging to Common section - MaxSizeRollBackups and MaximumFileSize
+
 ## 2.25.0.0 2022-09-22 
 LiveData update for Ice Hockey
 ScoutEvent extended with new properties - positionPlayerPitching, freeKickReason.
