@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.10.15.0" projectFile="C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\HelpFileBuilder.shfbproj" started="11/3/2022 14:24:24">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.10.15.0" projectFile="C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\HelpFileBuilder.shfbproj" started="3/14/2023 15:08:38">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -204,17 +204,17 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0378
+</plugIn>    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0519
+    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-ae509263-474e-4853-a157-2b73015aa9b8.proj]
-Build started 11/3/2022 14:24:26.
-Project &quot;C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-ae509263-474e-4853-a157-2b73015aa9b8.proj&quot; on node 1 (default targets).
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-2bb7884f-5d3e-4392-9f91-485be9d804d3.proj]
+Build started 3/14/2023 15:08:41.
+Project &quot;C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-2bb7884f-5d3e-4392-9f91-485be9d804d3.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateBindingRedirects:
@@ -224,33 +224,33 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 170 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Configuration.ConfigurationManager (System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by Sportradar.LiveData.Sdk [C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-ae509263-474e-4853-a157-2b73015aa9b8.proj]
-  Wrote information on 41 namespaces, 377 types, and 3177 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Configuration.ConfigurationManager (System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by Sportradar.LiveData.Sdk [C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-2bb7884f-5d3e-4392-9f91-485be9d804d3.proj]
+  Wrote information on 41 namespaces, 374 types, and 3163 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-ae509263-474e-4853-a157-2b73015aa9b8.proj&quot; (default targets).
-    Last step completed in 00:00:03.6835
+Done Building Project &quot;C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\GenerateRefInfo-2bb7884f-5d3e-4392-9f91-485be9d804d3.proj&quot; (default targets).
+    Last step completed in 00:00:02.5404
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2365
+    Last step completed in 00:00:00.1817
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.1187
+    Last step completed in 00:00:00.1118
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0658
+    Last step completed in 00:00:00.0664
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:01.1860
+    Last step completed in 00:00:00.7445
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
-    Last step completed in 00:00:01.6152
+    Last step completed in 00:00:01.3414
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -264,37 +264,37 @@ Generating conceptual topic files
     C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Content\VersionHistory\VersionHistory.aml -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\ddueXml\92f68339-ded8-4ff0-9e84-7b09ac04c141.xml
     Parsing topic file &#39;C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\ddueXml\dd15e69b-57e2-4aae-a46c-b59613ef7201.xml
-    Last step completed in 00:00:00.0449
+    Last step completed in 00:00:00.0214
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00.0269
+    Last step completed in 00:00:00.0143
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\icons\Help.png -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\icons\Help.png
 C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\icons\Help.png -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1256
+    Last step completed in 00:00:00.0937
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.6094
+    Last step completed in 00:00:00.4539
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0279
+    Last step completed in 00:00:00.0159
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -302,7 +302,7 @@ C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\BuildA
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0389
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -1026,7 +1026,6 @@ SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnMatchUpdateDelta] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnMatchUpdateDeltaUpdate] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnMatchUpdateFull] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnOddsSuggestion] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnOpened] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [E:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnScoutInfo] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.ProtoProvider] Missing &lt;summary&gt; documentation
@@ -1046,8 +1045,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnOpened&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnClosed&#39;.
@@ -1056,8 +1053,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnOpened&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Unknown reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events] Invalid reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ConnectionChangeEventArgs] Unknown reference link target &#39;!:ILiveScout.OnClosed&#39;.
@@ -1072,10 +1067,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs] Invalid reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs] Unknown reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs] Invalid reference link target &#39;!:ILiveScout.OnMatchStop&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.OddsSuggestionEventArgs] Unknown reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.OddsSuggestionEventArgs] Invalid reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.OddsSuggestionEventArgs] Unknown reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.OddsSuggestionEventArgs] Invalid reference link target &#39;!:ILiveScout.OnOddsSuggestion&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs] Unknown reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs] Invalid reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs] Unknown reference link target &#39;!:ILiveScout.OnScoutInfo&#39;.
@@ -1117,9 +1108,6 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildMatchUpdate(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildMatchUpdate(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildMatchUpdate(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match)] Missing &lt;param name=&quot;match&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildOddsSuggestions(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildOddsSuggestions(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildOddsSuggestions(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions)] Missing &lt;param name=&quot;orig&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildPlayer(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.player)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildPlayer(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.player)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.BuildPlayer(Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.player)] Missing &lt;param name=&quot;player&quot;/&gt; documentation
@@ -1139,6 +1127,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatch] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatchId] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Var] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.VbpClassification] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Venue] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Score.SubScore] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Score.Team1] Missing &lt;summary&gt; documentation
@@ -1186,6 +1175,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.ExtraInfoKabaddi] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FieldGoalDistance] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FieldingPlayers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FirstBasePlayer] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FoulTypeDescriptor] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FoulTypeQualifier] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.FreeKickReason] Missing &lt;summary&gt; documentation
@@ -1203,6 +1193,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomePlayerStatsRec] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomePlayerStatsRush] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomePlayerStatsTotal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomeRunsAway] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomeRunsHome] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomeTeamStats] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomeTeamStatsOt] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.HomeTeamStatsP1] Missing &lt;summary&gt; documentation
@@ -1222,13 +1214,16 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.KickedBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.MonsterType] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.MuffedBy] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.NextBatter] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PassedBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PenaltyDistance] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PenaltyNoPlay] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PenaltyReason] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PitchingSubstitution] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PlacedAt] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PositionPlayerPitching] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PreliminaryMatchStatistics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PrevPitcher] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PuntDistance] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.PushedBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.RanOutOfBoundsAt] Missing &lt;summary&gt; documentation
@@ -1243,6 +1238,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.SackedBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.SafetyBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.ScoreTypeQualifier] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.SecondBasePlayer] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.ShotDistance] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.SnappedBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.Spot] Missing &lt;summary&gt; documentation
@@ -1251,8 +1247,10 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProvi
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.Structure] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TackledBy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.Temperature] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.ThirdBasePlayer] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.ThrownTo] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TippedTo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TotalPitchCount] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TotalYardsGained] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TouchBackAt] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.TurfType] Missing &lt;summary&gt; documentation
@@ -1612,6 +1610,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.fieldingplayers] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.firstbaseloaded] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.firstbaseloadedSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.firstbaseplayer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.firstbaseplayerSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.foultypedescriptor] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.foultypedescriptorSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.foultypequalifier] Missing &lt;summary&gt; documentation
@@ -1651,6 +1651,10 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homeplayerstatsrec] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homeplayerstatsrush] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homeplayerstatstotal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homerunsaway] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homerunsawaySpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homerunshome] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.homerunshomeSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.hometeamstats] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.hometeamstatsot] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.hometeamstatsp1] Missing &lt;summary&gt; documentation
@@ -1701,6 +1705,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.muffedby] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.networth] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.networthSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.nextbatter] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.nextbatterSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.outs] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.outsSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.passedby] Missing &lt;summary&gt; documentation
@@ -1714,6 +1720,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.periodnumber] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.periodnumberSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.periodscore] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pitchingsubstitution] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pitchingsubstitutionSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pitchspeed] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pitchspeedSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pitchtype] Missing &lt;summary&gt; documentation
@@ -1734,6 +1742,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.posy] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.posySpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.preliminarymatchstatistics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.prevpitcher] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.prevpitcherSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.puntdistance] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.pushedby] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.quadrakills] Missing &lt;summary&gt; documentation
@@ -1762,6 +1772,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.scoretypequalifier] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondbaseloaded] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondbaseloadedSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondbaseplayer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondbaseplayerSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondscoretype] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.secondscoretypeSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.server] Missing &lt;summary&gt; documentation
@@ -1785,9 +1797,13 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.temperatureSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.thirdbaseloaded] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.thirdbaseloadedSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.thirdbaseplayer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.thirdbaseplayerSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.thrownto] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.tippedto] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.tippedtoSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.totalpitchcount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.totalpitchcountSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.totalyardsgained] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.totalyardsgainedSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.touchbackat] Missing &lt;summary&gt; documentation
@@ -1926,10 +1942,6 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.flashconfig] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.result] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.transferbookmakerid] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.transferbookmakeridSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.transferuserid] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.transferuseridSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.user] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.loginResult] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.manager] Missing &lt;summary&gt; documentation
@@ -1970,8 +1982,6 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.homestate] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.iscancelled] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.iscancelledSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.istestmatch] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.istestmatchSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.Items] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.matchid] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.matchtime] Missing &lt;summary&gt; documentation
@@ -2015,6 +2025,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.timerunningSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.var] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.varSpecified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.vbpclassification] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.vbpclassificationSpecified] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.venue] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.wonjumpball] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.wonjumpballSpecified] Missing &lt;summary&gt; documentation
@@ -2048,39 +2060,12 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchstop] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchstop.matchid] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchstop.reason] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchVbpclassification] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchWonjumpball] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth.mapnr] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth.t1] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth.t2] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.alsoOdds] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.alsoOddsSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.bookId] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.changenumber] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.description] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.guthMatchId] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.manualActive] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.matchId] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.maxDev] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.maxDevSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.OddsField] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.pref] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.prefSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.sj] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.sjSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.specialOddsValue] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.subtype] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.subtypeSpecified] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.type] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.Odds.validDate] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsField] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsField.description] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsField.side] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsField.Value] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions.matchid] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.OddsSuggestions.Odds] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.offsides] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.offsides.t1] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.offsides.t2] Missing &lt;summary&gt; documentation
@@ -2159,6 +2144,10 @@ SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.status.name] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.status.start] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.statusName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam.name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam.parent] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetype] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetype.id] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetype.name] Missing &lt;summary&gt; documentation
@@ -2812,18 +2801,20 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.
 SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.ConfigureLoggerHierarchy(System.Collections.Generic.IList{log4net.Appender.IAppender})] Missing &lt;param name=&quot;appenders&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.ConfigureLoggerHierarchy(System.Collections.Generic.IList{log4net.Appender.IAppender})] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.ConfigureLoggerHierarchy(System.Collections.Generic.IList{log4net.Appender.IAppender})] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;appender_name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;log_path&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;file_name&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;threshold&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;log_pattern&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;whitelist_filter&quot;/&gt; documentation
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Core.Level&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Core.Level&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;appender_name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;log_path&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;file_name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;maxSizeRollBackups&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;maximumFileSize&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;threshold&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;log_pattern&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Missing &lt;param name=&quot;whitelist_filter&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Core.Level&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Core.Level&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.CreateAppender(System.String,System.String,System.String,System.Int32,System.String,log4net.Core.Level,System.String,System.Boolean)] Unknown reference link target &#39;T:log4net.Appender.IAppender&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicActivator] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicActivator] Unknown reference link target &#39;T:Castle.MicroKernel.ComponentActivator.AbstractComponentActivator&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicActivator] Unknown reference link target &#39;T:Castle.MicroKernel.ComponentActivator.DefaultComponentActivator&#39;.
@@ -2905,27 +2896,26 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicConstructorDependenciesModelInspector.ProcessModel(Castle.MicroKernel.IKernel,Castle.Core.ComponentModel)] Unknown reference link target &#39;T:Castle.MicroKernel.IKernel&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicConstructorDependenciesModelInspector.ProcessModel(Castle.MicroKernel.IKernel,Castle.Core.ComponentModel)] Unknown reference link target &#39;T:Castle.Core.ComponentModel&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicConstructorDependenciesModelInspector.ProcessModel(Castle.MicroKernel.IKernel,Castle.Core.ComponentModel)] Unknown reference link target &#39;M:Castle.MicroKernel.ModelBuilder.IContributeComponentModelConstruction.ProcessModel(Castle.MicroKernel.IKernel,Castle.Core.ComponentModel)&#39;.
-Processed 3403 topic(s)
-2596 warning(s)
+Processed 3371 topic(s)
+2587 warning(s)
 CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
 ResolveArtLinksComponent: Copying media files...
-ResolveReferenceLinksComponent: 3 entries added to the member ID URL cache.  New cache size: 209 entries
 ResolveArtLinksComponent: Copying media files...
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
-    Last step completed in 00:00:19.1499
+    Last step completed in 00:00:18.0682
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 Processing Help 1 files in C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1
-Processed 3403 HTML files.  Sorting keywords and generating See Also indices.
-Saving HTML Help 1 keyword index to C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\Bookmaker SDK Documentation.hhk
-Saving HTML Help 1 table of contents to C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\Bookmaker SDK Documentation.hhc
+Processed 3371 HTML files.  Sorting keywords and generating See Also indices.
+Saving HTML Help 1 keyword index to C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\LiveData SDK Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\LiveData SDK Documentation.hhc
 Processing website files in C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\Website
-Processed 3403 HTML files.  Sorting keywords and generating See Also indices.
+Processed 3371 HTML files.  Sorting keywords and generating See Also indices.
 Saving website table of contents to C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\\WebTOC.xml
-    Last step completed in 00:00:00.8258
+    Last step completed in 00:00:00.9498
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -3063,11 +3053,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; C:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.6057
+    Last step completed in 00:00:00.7077
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0171
+    Last step completed in 00:00:00.0239
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -3076,7 +3066,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compiling c:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\Bookmaker SDK Documentation.chm
+  Compiling c:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\LiveData SDK Documentation.chm
   
   
   
@@ -3084,9 +3074,9 @@ Compiling HTML Help 1 file...
   
   Compile time: 1 minute, 12 seconds
   
-  3,405	Topics
+  3,373	Topics
   
-  37,669	Local links
+  37,337	Local links
   
   0	Internet links
   
@@ -3096,18 +3086,18 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\Bookmaker SDK Documentation.chm, 3,609,971 bytes
+  Created c:\Work\BookmakerSDK\sportradar.livedata.sdk\HelpFileBuilder\Help\Working\Output\HtmlHelp1\LiveData SDK Documentation.chm, 3,568,281 bytes
   
-  Compression decreased file by 22,162,995 bytes.
+  Compression decreased file by 21,951,264 bytes.
   
-    Last step completed in 00:01:13.3173
+    Last step completed in 00:01:12.6803
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:02.6961
+</plugIn>    Last step completed in 00:00:02.7973
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -3120,16 +3110,16 @@ Copied 2500 files
 Copied 3000 files
 Copied 3500 files
 Copied 4000 files
-Copied 4329 files for the website content
-    Last step completed in 00:00:06.8657
+Copied 4284 files for the website content
+    Last step completed in 00:00:05.9723
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.5716
+    Last step completed in 00:00:02.2912
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 11/3/2022 14:26:20.  Total time: 00:01:55.7550
+Build completed successfully at 3/14/2023 15:10:30.  Total time: 00:01:51.2758
 
 </buildStep>
 </shfbBuild>
