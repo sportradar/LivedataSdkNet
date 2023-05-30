@@ -20,7 +20,6 @@ namespace Sportradar.LiveData.Sdk.Service
             Services.Sdk.Instance.LiveScout.OnMatchList += OnMatchList;
             Services.Sdk.Instance.LiveScout.OnMatchStop += OnMatchStop;
             Services.Sdk.Instance.LiveScout.OnMatchUpdate += OnMatchUpdate;
-            Services.Sdk.Instance.LiveScout.OnOddsSuggestion += OnOddsSuggestion;
             Services.Sdk.Instance.LiveScout.OnScoutInfo += OnScoutInfo;
             Services.Sdk.Instance.LiveScout.OnMatchBookingReply += OnMatchBookingReply;
             Services.Sdk.Instance.LiveScout.OnMatchData += OnMatchData;
@@ -69,16 +68,6 @@ namespace Sportradar.LiveData.Sdk.Service
             g_log.InfoFormat("ScoutInfo: match id {0}", event_args.MatchId);
 
             foreach (var item in event_args.ScoutInfos)
-            {
-                g_log.InfoFormat(">  {0}", item);
-            }
-        }
-
-        void OnOddsSuggestion(object sender, OddsSuggestionEventArgs event_args)
-        {
-            g_log.InfoFormat("OddsSuggestion: match id {0}, #odds {1}", event_args.MatchId, event_args.Odds.Length);
-
-            foreach (var item in event_args.Odds)
             {
                 g_log.InfoFormat(">  {0}", item);
             }

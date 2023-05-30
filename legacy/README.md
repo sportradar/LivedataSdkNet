@@ -8,6 +8,15 @@ especially with the release of new and updated XML feed versions.
 
 # ChangeLog:
 
+## 2.28.0.0 2023-05-30
+LiveData update for Snooker.
+ScoutEvent extended with new poperties - PointsUntilSnookerNeeded, PossibleBreak, MaxBreakFrame, PointsRemaining, Reds.
+Removed PrevPitcher property from ScoutEvent.
+
+## 2.27.0.0 2023-03-14
+LiveData update for MLB.
+ScoutEvent extended with new properties - FirstBasePlayer, SecondBasePlayer, ThirdBasePlayer, HomeRunsHome, HomeRunsAway, PrevPitcher, NextBatter, TotalPitchCount.
+
 ## 2.26.0.0 2023-01-26
 MatchUpdate extended with new property - SubTeam  
 MatchHeader extended with new property - VbpClassification  
