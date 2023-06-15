@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.4] - 2023-06-15
+
+LiveData update for Snooker.
+ScoutEvent extended with new poperties - PointsUntilSnookerNeeded, PossibleBreak, MaxBreakFrame, PointsRemaining, Reds.
+Removed PrevPitcher property from ScoutEvent.
+
 ## [1.1.3] - 2023-05-30
 
 LiveData update for Snooker.
