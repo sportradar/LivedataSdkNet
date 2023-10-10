@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.1.5] - 2023-10-10
+
+New match format type added - USESOVERS.
+
+LiveData update for Soccer.
+ScoutEvent extended with new properties - ExtraInfoSoccer.
+
+LiveData update for Waterpolo.
+ScoutEvent extended with new property - ExtraInfoWaterpolo.
+
+LiveData update for NHL.
+ScoutEvent extended with new properties - ShotProjectedGoalRate, ShotRatingCategory, ShotSpeed, ShotType.
+
 ## [1.1.4] - 2023-06-15
 
 LiveData update for Snooker.
