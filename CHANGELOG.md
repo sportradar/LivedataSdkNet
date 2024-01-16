@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.1.6] - 2023-11-08
+
+LiveData update for Soccer.
+ScoutEvent extended with new properties - HomePlayerStats, AwayPlayerStats.
+
+List of SubTeams added to MatchUpdate, SubTeam property is deprecated.
+
 ## [1.1.5] - 2023-10-10
 
 New match format type added - USESOVERS.
