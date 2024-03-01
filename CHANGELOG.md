@@ -1,5 +1,78 @@
 # Change Log
 
+## [1.1.8] - 2024-02-01
+
+Enhanced login failure messaging to include specific reasons and error codes for better diagnostics.
+
+Lineups extended with new property - Preliminary
+
+ScoutEvent extended with new properties:
+ - RefsTime
+ - PlayerStatistics
+ - TeamStatistics
+
+The following properties in ScoutEvent are marked as Obsolete and moved to PlayerStatistics:
+ - HomePlayerStatsTotal
+ - HomePlayerStatsP1
+ - HomePlayerStatsP2
+ - HomePlayerStatsP3
+ - HomePlayerStatsP4
+ - HomePlayerStatsOt
+ - AwayPlayerStatsTotal
+ - AwayPlayerStatsP1
+ - AwayPlayerStatsP2
+ - AwayPlayerStatsP3
+ - AwayPlayerStatsP4
+ - AwayPlayerStatsOt
+
+New properties included in PlayerStatistics:
+ - HomePitchersStatsTotal
+ - HomeBattersStatsTotal
+ - AwayPitchersStatsTotal
+ - AwayBattersStatsTotal
+ 
+The following properties in ScoutEvent are marked as Obsolete and moved to TeamStatistics:
+ - HomeTeamStatsTotal
+ - HomeTeamStatsP1
+ - HomeTeamStatsP2
+ - HomeTeamStatsP3
+ - HomeTeamStatsP4
+ - HomeTeamStatsOt
+ - AwayTeamStatsTotal
+ - AwayTeamStatsP1
+ - AwayTeamStatsP2
+ - AwayTeamStatsP3
+ - AwayTeamStatsP4
+ - AwayTeamStatsOt
+
+New properties included in TeamStatistics:
+ - HomeTeamStatsI1
+ - HomeTeamStatsI2
+ - HomeTeamStatsI3
+ - HomeTeamStatsI4
+ - HomeTeamStatsI5
+ - HomeTeamStatsI6
+ - HomeTeamStatsI7
+ - HomeTeamStatsI8
+ - HomeTeamStatsI9
+ - HomeTeamStatsIe
+ - AwayTeamStatsI1
+ - AwayTeamStatsI2
+ - AwayTeamStatsI3
+ - AwayTeamStatsI4
+ - AwayTeamStatsI5
+ - AwayTeamStatsI6
+ - AwayTeamStatsI7
+ - AwayTeamStatsI8
+ - AwayTeamStatsI9
+ - AwayTeamStatsIe
+
+## [1.1.7] - 2024-01-16
+
+ScoutEvent extended with new properties - ScorerNotConfirmed.
+
+Introduced a new ScoutFeedType: FULL_PAGINATED. Receive full paginated match updates through the new event: Services.Sdk.Instance.LiveScout.OnMatchUpdateFullPaginated.
+
 ## [1.1.6] - 2023-11-08
 
 LiveData update for Soccer.
