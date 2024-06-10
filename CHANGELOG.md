@@ -1,6 +1,39 @@
 # Change Log
 
-## [1.1.8] - 2024-02-01
+## [1.1.10] - 2024-06-03
+ScoutEvent extended with new properties:
+- Statistics
+- OnDeck
+- InHole
+- NumberOfShots
+- PointOutcome
+- Situation
+- ErrorType
+- ShotSequence
+- PrimaryShotType
+- SecondaryShotType
+- LastStroke
+- ExtraInfoTennis
+- SupervisorAction
+
+New types added:
+- Statistics
+- BattersStatsTotal
+- PitchersStatsTotal
+- TeamStats
+- PlayerStats
+- Stats
+
+New TeamStatsType enum added.
+EventType enum updated.
+
+## [1.1.9] - 2024-03-11
+PlayerStatistics is added only for ScoutEvent with event type 1714
+TeamStatistics is added only for ScoutEvent with event type 1743
+
+FormatType enum is extended with new value - ONEPOINTCONVERSIONYARDLINE
+
+## [1.1.8] - 2024-03-01
 
 Enhanced login failure messaging to include specific reasons and error codes for better diagnostics.
 
