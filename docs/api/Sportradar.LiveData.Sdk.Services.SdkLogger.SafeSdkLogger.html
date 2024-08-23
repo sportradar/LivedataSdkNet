@@ -1,0 +1,802 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SafeSdkLogger | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SafeSdkLogger | sportradar.livedata.sdk ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger" class="text-break">
+Class SafeSdkLogger  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.html">Services</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.html">SdkLogger</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SafeSdkLogger : ISdkLogger</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SafeSdkLogger</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.ISdkLogger.html">ISdkLogger</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger__ctor_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.#ctor*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger__ctor" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.#ctor">
+  SafeSdkLogger()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SafeSdkLogger()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsDebugEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsDebugEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsDebugEnabled_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsDebugEnabled(Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsDebugEnabled(SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDebugEnabled(SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsErrorEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsErrorEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsErrorEnabled_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsErrorEnabled(Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsErrorEnabled(SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsErrorEnabled(SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsFatalEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsFatalEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsFatalEnabled_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsFatalEnabled(Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsFatalEnabled(SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFatalEnabled(SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsInfoEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsInfoEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsInfoEnabled_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsInfoEnabled(Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsInfoEnabled(SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInfoEnabled(SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsLevelEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsLevelEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsLevelEnabled_log4net_Core_Level_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsLevelEnabled(log4net.Core.Level,Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsLevelEnabled(Level, SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLevelEnabled(Level level, SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd></dd>
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsWarnEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsWarnEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_IsWarnEnabled_Sportradar_LiveData_Sdk_Services_SdkLogger_SdkLogAppenderType_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.IsWarnEnabled(Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType)">
+  IsWarnEnabled(SdkLogAppenderType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWarnEnabled(SdkLogAppenderType appender_type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appender_type</code> <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html">SdkLogAppenderType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogAlert_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogAlert*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogAlert_log4net_Core_Level_System_String_System_Exception_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogAlert(log4net.Core.Level,System.String,System.Exception)">
+  LogAlert(Level, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SDK will generate and signal alerts in case of any special events.
+This could happen when network connection is dropped, rate-limiting thresholds are exceeded,
+when going over queue low/high watermarks, when feed error recovery is in progress,
+if persistent state store gets out-of-sync, when event dispatching is put on pause,
+when SDK library is reloaded, current status of login sequence, etc. Alerts will be dumped into dedicated alert logs.
+Special alerts (configurable) could be logged to other log appenders, like SMTP appender, NT Event Log appender or JmxLogger appender.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogAlert(Level level, string msg, Exception e = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Alert message</p>
+</dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Optional exception</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogClientInteraction_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogClientInteraction*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogClientInteraction_log4net_Core_Level_System_String_System_Exception_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogClientInteraction(log4net.Core.Level,System.String,System.Exception)">
+  LogClientInteraction(Level, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>All interaction with the client software on the SDK interface level will be logged in a separate client communication log.
+This includes all method invocations on the SDK interface including parameter values, request parameter validation errors
+and other errors returned by the SDK, unhandled client exceptions, errors reported by the client handlers, timings of each call, etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogClientInteraction(Level level, string msg, Exception e = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String message</p>
+</dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Optional exception</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogClientInteraction_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogClientInteraction*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogClientInteraction_log4net_Core_Level_System_String_System_TimeSpan_System_Exception_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogClientInteraction(log4net.Core.Level,System.String,System.TimeSpan,System.Exception)">
+  LogClientInteraction(Level, string, TimeSpan, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>All interaction with the client software on the SDK interface level will be logged in a separate client communication log.
+This includes all method invocations on the SDK interface including parameter values, request parameter validation errors
+and other errors returned by the SDK, unhandled client exceptions, errors reported by the client handlers, timings of each call, etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogClientInteraction(Level level, string msg, TimeSpan time_elapsed, Exception e = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String message</p>
+</dd>
+    <dt><code>time_elapsed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>Elapsed time while processing client request or client handler invocation</p>
+</dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Optional exception</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogConfiguration_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogConfiguration*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogConfiguration_log4net_Core_Level_System_String_System_Exception_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogConfiguration(log4net.Core.Level,System.String,System.Exception)">
+  LogConfiguration(Level, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SDK will keep a track of all SDK configuration settings used by the client.
+Configuration settings are loaded at startup and are also periodically pulled from the configuration server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogConfiguration(Level level, string msg, Exception e = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Configuration settings (key-value tuples) dumped into message</p>
+</dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Optional exception</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogDeadLetter_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogDeadLetter*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogDeadLetter_log4net_Core_Level_System_String_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogDeadLetter(log4net.Core.Level,System.String)">
+  LogDeadLetter(Level, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Logs dead letter messages that are otherwise redirected to client provided dead letter queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogDeadLetter(Level level, string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Dead letter message</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogInvalidMessage_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogInvalidMessage*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogInvalidMessage_log4net_Core_Level_System_String_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogInvalidMessage(log4net.Core.Level,System.String)">
+  LogInvalidMessage(Level, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Corrupt input feed data will be dumped into log files dedicated to corrupt input data (could be garbage and not even text, exceeding max buffer size).
+Invalid input messages will be dumped into log files dedicated to invalid input messages (text, but not necessarily XML).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogInvalidMessage(Level level, string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Invalid message</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogStatistics_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogStatistics*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogStatistics_log4net_Core_Level_System_String_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogStatistics(log4net.Core.Level,System.String)">
+  LogStatistics(Level, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SDK will keep a track of some traffic, queue, performance and error statistics.
+Aggregated snapshots of these statistics will be periodically flushed into statistics logs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogStatistics(Level level, string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Statistics dumped into message</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogTraffic_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogTraffic*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_LogTraffic_log4net_Core_Level_System_String_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.LogTraffic(log4net.Core.Level,System.String)">
+  LogTraffic(Level, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Depending on configuration SDK will be able to dump all feed XML traffic into dedicated traffic logs.
+This data is already logged at the feed server level but here the client will have possibility
+to configure traffic log filters based on the type of message, level of detail, match id, etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogTraffic(Level level, string msg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <span class="xref">Level</span></dt>
+    <dd><p>Log level</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Message that was either read or written to the communication channel</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_Start_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.Start*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_Start" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_Stop_" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.Stop*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkLogger_SafeSdkLogger_Stop" data-uid="Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.Stop">
+  Stop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

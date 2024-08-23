@@ -1,0 +1,763 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class QueueStats | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class QueueStats | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="Queue statistics tracking total number of items in queue, total time spent in queue, total time to process items after they are dequeued, average enqueue/dequeue rate and total number of items enqueue, dequeued or dropped from the queue.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats" class="text-break">
+Class QueueStats  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.html">Services</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.html">QueueStats</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Queue statistics tracking total number of items in queue, total time spent in queue,
+total time to process items after they are dequeued, average enqueue/dequeue rate and
+total number of items enqueue, dequeued or dropped from the queue.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class QueueStats : ICloneable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">QueueStats</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats__ctor_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.#ctor*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats__ctor" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.#ctor">
+  QueueStats()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected QueueStats()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats__ctor_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.#ctor*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats__ctor_System_String_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.#ctor(System.String)">
+  QueueStats(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a> class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QueueStats(string desc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>desc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Short description of the queue statistics</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_AvgDequeueRate_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.AvgDequeueRate*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_AvgDequeueRate" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.AvgDequeueRate">
+  AvgDequeueRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get average dequeue rate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? AvgDequeueRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_AvgEnqueueRate_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.AvgEnqueueRate*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_AvgEnqueueRate" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.AvgEnqueueRate">
+  AvgEnqueueRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get average enqueue rate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? AvgEnqueueRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_CreatedOn_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.CreatedOn*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_CreatedOn" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.CreatedOn">
+  CreatedOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the time statistics were created at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreatedOn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Description_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Description*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Description" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Description">
+  Description
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Short description</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_ItemsInQueue_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.ItemsInQueue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_ItemsInQueue" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.ItemsInQueue">
+  ItemsInQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get avg/min/max number of items in queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AvgMinMax&lt;long&gt; ItemsInQueue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.AvgMinMax-1.html">AvgMinMax</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_QueueName_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.QueueName*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_QueueName" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.QueueName">
+  QueueName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Queue name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string QueueName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_SuspendedOn_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.SuspendedOn*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_SuspendedOn" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.SuspendedOn">
+  SuspendedOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the time statistics were suspended at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime SuspendedOn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TimeInQueue_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TimeInQueue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TimeInQueue" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TimeInQueue">
+  TimeInQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get avg/min/max time that items spend in queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AvgMinMax&lt;TimeSpan&gt; TimeInQueue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.AvgMinMax-1.html">AvgMinMax</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TimeToProcess_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TimeToProcess*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TimeToProcess" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TimeToProcess">
+  TimeToProcess
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get avg/min/max time it takes to process an item after it is dequeued.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AvgMinMax&lt;TimeSpan&gt; TimeToProcess { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.AvgMinMax-1.html">AvgMinMax</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalDequeued_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalDequeued*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalDequeued" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalDequeued">
+  TotalDequeued
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get total number of items dequeued.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalDequeued { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalDropped_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalDropped*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalDropped" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalDropped">
+  TotalDropped
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get total number of items dropped (discarded) from the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalDropped { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalEnqueued_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalEnqueued*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_TotalEnqueued" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.TotalEnqueued">
+  TotalEnqueued
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get total number of items enqueued.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalEnqueued { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Clone_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Clone*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Clone" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new object that is a copy of the current instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QueueStats Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd><p>A new object that is a copy of this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Suspend_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Suspend*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_Suspend" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.Suspend">
+  Suspend()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stop collecting queue statistics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Suspend()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_ToString_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.ToString*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_ToString" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_ToString_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be used for diagnostics purposes.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_UpdateCurrentCount_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.UpdateCurrentCount*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_QueueStats_UpdateCurrentCount_System_Int64_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.UpdateCurrentCount(System.Int64)">
+  UpdateCurrentCount(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateCurrentCount(long curr_count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curr_count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

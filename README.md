@@ -94,4 +94,4 @@ SDK generates explicit "bet stop" message if a client gets disconnected from XML
 
 ### Documentation
 
-[API docs](https://sportradar.github.io/LivedataSdkNet) 
+[API docs](https://sportradar.github.io/LivedataSdkNet/api/Sportradar.LiveData.Sdk.Common.html) 

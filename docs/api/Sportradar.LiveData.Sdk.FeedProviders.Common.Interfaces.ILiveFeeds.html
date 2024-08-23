@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ILiveFeeds | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ILiveFeeds | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="Live feeds base client interface.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds" class="text-break">
+Interface ILiveFeeds  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.html">FeedProviders</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.html">Common</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Live feeds base client interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILiveFeeds : IStartable</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Start">IStartable.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Stop">IStartable.Stop()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_AvailableTranslations_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.AvailableTranslations*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_AvailableTranslations" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.AvailableTranslations">
+  AvailableTranslations
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Language codes of the currently available translations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string[] AvailableTranslations { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastAliveMessage_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.LastAliveMessage*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastAliveMessage" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.LastAliveMessage">
+  LastAliveMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get time when the last alive message from the server was received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime LastAliveMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastAliveMessage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Time is in UTC according to the local computer or DateTime.MinValue if no message was
+received yet in this session.</p>
+<p>A too old value might indicate a problem.
+Notice that you should not check against this value and disconnect manually
+<a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxTimeSkew">MaxTimeSkew</a> setting is meant for that.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastServerMessage_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.LastServerMessage*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastServerMessage" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.LastServerMessage">
+  LastServerMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get time when the last message from the server was received.
+This includes alive messages that are periodically sent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime LastServerMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastServerMessage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Time is in UTC according to the local computer or DateTime.MinValue if no message was
+received yet in this session.</p>
+<p>A too old value might indicate a problem.
+Notice that you should not check against this value and disconnect manually
+<a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxTimeSkew">MaxTimeSkew</a> setting is meant for that.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ServerTime_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.ServerTime*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ServerTime" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.ServerTime">
+  ServerTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get approximate server time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime? ServerTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ServerTime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Time is is synchronized from LiveOdds server in every received message and periodically from LiveScout
+(according to <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveScout.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveScout_ServerTimeSyncInterval">ServerTimeSyncInterval</a>).
+Interpolation is used so this should approximately be the time on the server (not the time of the last message).
+Value can be null if last successful synchronization was more than <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxServerTimestampAge">MaxServerTimestampAge</a> ago.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_SubscribedEvents_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.SubscribedEvents*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_SubscribedEvents" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.SubscribedEvents">
+  SubscribedEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>All event ids we are currently subscribed to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long[] SubscribedEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_BookEvents_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.BookEvents*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_BookEvents_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.BookEvents(System.Collections.Generic.IEnumerable{System.Int64})">
+  BookEvents(IEnumerable&lt;long&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Book the specified events. Booked events cannot be cancelled through this interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long? BookEvents(IEnumerable&lt;long&gt; event_ids)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>event ids</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd><p>Request id. LiveOdds : You can use this to match response if &quot;Include response reply number in meta&quot; is enabled</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_BookEvents_System_Collections_Generic_IEnumerable_System_Int64___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+You should prefer using the Live Calendar on the Betradar website (http://www.betradar.com) which
+offers automatic booking for certain types of events.
+</p>
+<p>
+Note that booking events will have a cost depending on the type of agreement you have with Sportradar.
+</p>
+<p>
+LiveScout: Expect <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html#Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchBookingReply">OnMatchBookingReply</a> message in reply.
+</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ClearState_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.ClearState*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ClearState" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.ClearState">
+  ClearState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Clears complete state for this provider, that can otherwise be used in case of feed error recovery
+which can occur after every feed server reconnect or at initial SDK startup.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ClearState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ClearState_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Should be used with extreme caution!</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Subscribe_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.Subscribe*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Subscribe_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.Subscribe(System.Collections.Generic.IEnumerable{System.Int64})">
+  Subscribe(IEnumerable&lt;long&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Subscribe to specified events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Subscribe(IEnumerable&lt;long&gt; event_ids)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>Array of event ids</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Subscribe_System_Collections_Generic_IEnumerable_System_Int64___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+With LiveScout you <b>must</b> explicitly call Subscribe() at start-up or no data will be received.
+</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Unsubscribe_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.Unsubscribe*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Unsubscribe_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.Unsubscribe(System.Collections.Generic.IEnumerable{System.Int64})">
+  Unsubscribe(IEnumerable&lt;long&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sends a batch unsubscribe request to the server for the specified event IDs.
+After this request is processed, no more events associated with these event IDs will be sent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Unsubscribe(IEnumerable&lt;long&gt; event_ids)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>Array of event ids</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Unsubscribe_System_Collections_Generic_IEnumerable_System_Int64___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+LiveScout: Expect <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html#Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchStop">OnMatchStop</a> message is response.
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_OnFeedError" data-uid="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.OnFeedError">
+  OnFeedError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals that a feed error has occurred (e.g. we got disconnected from the feed server, XML message parsing error occurred).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FeedErrorEventArgs&gt; OnFeedError</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Events.FeedErrorEventArgs.html">FeedErrorEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_OnFeedError_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It is suggested that this event handler is wired to some Monitoring Service</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

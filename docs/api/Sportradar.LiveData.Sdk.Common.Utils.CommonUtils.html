@@ -1,0 +1,1338 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CommonUtils | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CommonUtils | sportradar.livedata.sdk ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils" class="text-break">
+Class CommonUtils  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.html">Common</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Utils.html">Utils</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CommonUtils</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CommonUtils</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_g_decimal_fmt" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.g_decimal_fmt">
+  g_decimal_fmt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly NumberFormatInfo g_decimal_fmt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.numberformatinfo">NumberFormatInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_CheckForAnyAttr_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.CheckForAnyAttr*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_CheckForAnyAttr__1___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.CheckForAnyAttr``1(``0)">
+  CheckForAnyAttr&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CheckForAnyAttr&lt;T&gt;(T obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertEnumByName_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertEnumByName*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertEnumByName__1_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertEnumByName``1(System.String)">
+  ConvertEnumByName&lt;Tout&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Tout ConvertEnumByName&lt;Tout&gt;(string orig) where Tout : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orig</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Tout</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Tout</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertEnumByName_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertEnumByName*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertEnumByName__2___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertEnumByName``2(``0)">
+  ConvertEnumByName&lt;Tin, Tout&gt;(Tin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Tout ConvertEnumByName&lt;Tin, Tout&gt;(Tin orig) where Tin : struct, IConvertible where Tout : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orig</code> <span class="xref">Tin</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Tout</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Tin</code></dt>
+    <dd></dd>
+    <dt><code>Tout</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertToResourceName_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertToResourceName*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ConvertToResourceName_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ConvertToResourceName(System.String)">
+  ConvertToResourceName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertToResourceName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_Deserialize_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.Deserialize*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_Deserialize__1_System_Byte___" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.Deserialize``1(System.Byte[])">
+  Deserialize&lt;T&gt;(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(byte[] arr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_EnsureDifferentThread_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.EnsureDifferentThread*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_EnsureDifferentThread_System_Boolean_System_Action_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.EnsureDifferentThread(System.Boolean,System.Action)">
+  EnsureDifferentThread(bool, Action)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>When is_different_thread is true run in the same thread, else start a new one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnsureDifferentThread(bool is_different_thread, Action action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>is_different_thread</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>boolean condition</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>action to be executed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_FromTimespan_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.FromTimespan*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_FromTimespan_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.FromTimespan(System.TimeSpan)">
+  FromTimespan(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long FromTimespan(TimeSpan ts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_FromTimestamp_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.FromTimestamp*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_FromTimestamp_System_Int64_System_DateTimeKind_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.FromTimestamp(System.Int64,System.DateTimeKind)">
+  FromTimestamp(long, DateTimeKind)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert from UNIX timestamp to local or UTC timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime FromTimestamp(long time, DateTimeKind convert_to = DateTimeKind.Utc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>UTC time in UNIX format (*1000)</p>
+</dd>
+    <dt><code>convert_to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimekind">DateTimeKind</a></dt>
+    <dd><p>Date time kind to convert to</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>Date time of the specified kind</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumMaxValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumMaxValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumMaxValue__1" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumMaxValue``1">
+  GetEnumMaxValue&lt;TEnum&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TEnum GetEnumMaxValue&lt;TEnum&gt;() where TEnum : IComparable, IConvertible, IFormattable</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEnum</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEnum</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumMinValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumMinValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumMinValue__1" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumMinValue``1">
+  GetEnumMinValue&lt;TEnum&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TEnum GetEnumMinValue&lt;TEnum&gt;() where TEnum : IComparable, IConvertible, IFormattable</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEnum</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEnum</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue__1_System_Boolean_System_Int32___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue``1(System.Boolean,System.Int32,``0)">
+  GetEnumValue&lt;T&gt;(bool, int, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the provided <pre><code class="lang-csharp">value</code></pre> to the member of the specified enum, or returns <pre><code class="lang-csharp">defaultValue</code></pre>
+if value of <pre><code class="lang-csharp">specified</code></pre> is false
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEnumValue&lt;T&gt;(bool specified, int value, T defaultValue) where T : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>specified</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Value indicating whether the value field was specified in the feed message</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The value in the feed message</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd><p>A <code class="typeparamref">T</code> member to be returned if <pre><code class="lang-csharp">specified</code></pre> is false
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The <pre><code class="lang-csharp">value</code></pre> converted to enum <code class="typeparamref">T</code> member
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of enum to which to convert the <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue__1_System_Int32_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue``1(System.Int32)">
+  GetEnumValue&lt;T&gt;(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the provided <pre><code class="lang-csharp">value</code></pre> to the member of the specified enum
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEnumValue&lt;T&gt;(int value) where T : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The value to be converted</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The member of the specified enum</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of enum to which to convert the <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue__1_System_Int32___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue``1(System.Int32,``0)">
+  GetEnumValue&lt;T&gt;(int, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the provided <pre><code class="lang-csharp">value</code></pre> to the member of the specified enum, or returns <pre><code class="lang-csharp">defaultValue</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEnumValue&lt;T&gt;(int value, T defaultValue) where T : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The value in the feed message</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd><p>A <code class="typeparamref">T</code> member to be returned if unknown <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The <pre><code class="lang-csharp">value</code></pre> converted to enum <code class="typeparamref">T</code> member
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of enum to which to convert the <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue__1_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue``1(System.String)">
+  GetEnumValue&lt;T&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the provided <pre><code class="lang-csharp">value</code></pre> (enum value name) to the member of the specified enum
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEnumValue&lt;T&gt;(string value) where T : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value name to be converted</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The member of the specified enum</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of enum to which to convert the <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetEnumValue__1_System_String___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetEnumValue``1(System.String,``0)">
+  GetEnumValue&lt;T&gt;(string, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the provided <pre><code class="lang-csharp">value</code></pre> (enum value name) to the member of the specified enum
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEnumValue&lt;T&gt;(string value, T defaultValue) where T : struct, IConvertible</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value name to be converted</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd><p>A <code class="typeparamref">T</code> member to be returned if <pre><code class="lang-csharp">value</code></pre> is not member of enum
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The member of the specified enum</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of enum to which to convert the <pre><code class="lang-csharp">value</code></pre>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetTimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetTimeSpan*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetTimeSpan_System_TimeSpan_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetTimeSpan(System.TimeSpan,System.TimeSpan)">
+  GetTimeSpan(TimeSpan, TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeSpan GetTimeSpan(TimeSpan ts, TimeSpan default_ts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+    <dt><code>default_ts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetVersion_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetVersion*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_GetVersion_System_Type_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.GetVersion(System.Type)">
+  GetVersion(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetVersion(Type t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_IntegerToBoolean_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.IntegerToBoolean*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_IntegerToBoolean_System_Int32_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.IntegerToBoolean(System.Int32)">
+  IntegerToBoolean(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>IntegerToBoolean</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IntegerToBoolean(int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_IsEnumMember_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.IsEnumMember*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_IsEnumMember__1_System_Object_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.IsEnumMember``1(System.Object)">
+  IsEnumMember&lt;TEnum&gt;(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the provided value is member of the specified enumeration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEnumMember&lt;TEnum&gt;(object value) where TEnum : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the provided value is member of the specified enumeration. Otherwise false.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEnum</code></dt>
+    <dd><p>The enumeration whose members are to be checked</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_OpenResourceStream_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.OpenResourceStream*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_OpenResourceStream_System_Reflection_Assembly_System_Type_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.OpenResourceStream(System.Reflection.Assembly,System.Type,System.String)">
+  OpenResourceStream(Assembly, Type, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream OpenResourceStream(Assembly assembly, Type type, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ParseDecimal_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ParseDecimal*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ParseDecimal_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ParseDecimal(System.String)">
+  ParseDecimal(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ParseDecimal(string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ReadResourceStream_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ReadResourceStream*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ReadResourceStream_System_Reflection_Assembly_System_Type_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ReadResourceStream(System.Reflection.Assembly,System.Type,System.String)">
+  ReadResourceStream(Assembly, Type, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ReadResourceStream(Assembly assembly, Type type, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_RemoveConsecutiveDots_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.RemoveConsecutiveDots*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_RemoveConsecutiveDots_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.RemoveConsecutiveDots(System.String)">
+  RemoveConsecutiveDots(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RemoveConsecutiveDots(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_SafeWaitTime_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.SafeWaitTime*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_SafeWaitTime_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.SafeWaitTime(System.TimeSpan)">
+  SafeWaitTime(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeSpan SafeWaitTime(TimeSpan ts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_Serialize_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.Serialize*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_Serialize__1___0_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.Serialize``1(``0)">
+  Serialize&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] Serialize&lt;T&gt;(T obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_StringToBoolean_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.StringToBoolean*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_StringToBoolean_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.StringToBoolean(System.String)">
+  StringToBoolean(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>StringToBoolean</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringToBoolean(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_StringToDateTime_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.StringToDateTime*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_StringToDateTime_System_String_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.StringToDateTime(System.String,System.String)">
+  StringToDateTime(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>StringToDateTime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime StringToDateTime(string value, string zone)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>zone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ToTimestamp_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ToTimestamp*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Utils_CommonUtils_ToTimestamp_System_DateTime_System_Boolean_" data-uid="Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.ToTimestamp(System.DateTime,System.Boolean)">
+  ToTimestamp(DateTime, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ToTimestamp(DateTime time, bool warn = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>warn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

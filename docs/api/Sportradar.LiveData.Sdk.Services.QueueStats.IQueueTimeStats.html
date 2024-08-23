@@ -1,0 +1,592 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IQueueTimeStats | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IQueueTimeStats | sportradar.livedata.sdk ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats" class="text-break">
+Interface IQueueTimeStats  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.html">Services</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.html">QueueStats</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IQueueTimeStats : IStartable</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Start">IStartable.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Stop">IStartable.Stop()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_DailyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.DailyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_DailyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.DailyStats">
+  DailyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats DailyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_HourlyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.HourlyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_HourlyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.HourlyStats">
+  HourlyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats HourlyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_IsEnabled_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.IsEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_IsEnabled" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.IsEnabled">
+  IsEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_MinutelyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.MinutelyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_MinutelyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.MinutelyStats">
+  MinutelyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats MinutelyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevDailyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevDailyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevDailyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevDailyStats">
+  PrevDailyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats PrevDailyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevHourlyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevHourlyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevHourlyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevHourlyStats">
+  PrevHourlyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats PrevHourlyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevMinutelyStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevMinutelyStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_PrevMinutelyStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.PrevMinutelyStats">
+  PrevMinutelyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats PrevMinutelyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_QueueName_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.QueueName*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_QueueName" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.QueueName">
+  QueueName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string QueueName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_TotalStats_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.TotalStats*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_TotalStats" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.TotalStats">
+  TotalStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">QueueStats TotalStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html">QueueStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemDequeued_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemDequeued*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemDequeued_System_Int64_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemDequeued(System.Int64,System.TimeSpan)">
+  ItemDequeued(long, TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ItemDequeued(long curr_count, TimeSpan time_in_queue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curr_count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>time_in_queue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemDropped_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemDropped*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemDropped" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemDropped">
+  ItemDropped()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ItemDropped()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemEnqueued_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemEnqueued*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemEnqueued_System_Int64_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemEnqueued(System.Int64)">
+  ItemEnqueued(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ItemEnqueued(long curr_count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curr_count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemProcessed_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemProcessed*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ItemProcessed_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ItemProcessed(System.TimeSpan)">
+  ItemProcessed(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ItemProcessed(TimeSpan time_to_process)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time_to_process</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ToString_" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ToString*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_QueueStats_IQueueTimeStats_ToString" data-uid="Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

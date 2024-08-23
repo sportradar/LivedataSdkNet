@@ -1,0 +1,797 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IConnectionProvider | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IConnectionProvider | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="Connection provider">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider" class="text-break">
+Interface IConnectionProvider  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.html">Common</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Connection provider</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IConnectionProvider</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_ConnectionData_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.ConnectionData*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_ConnectionData" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.ConnectionData">
+  ConnectionData
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Obtain current connection data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IConnectionData ConnectionData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionData.html">IConnectionData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_IsStarted_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.IsStarted*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_IsStarted" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.IsStarted">
+  IsStarted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Obtain whether the connection provider is running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsStarted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_RxEnabled_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.RxEnabled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_RxEnabled" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.RxEnabled">
+  RxEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether reading from input stream is enabled or not
+(i.e. input msg queue going over the high watermark should disable all RX)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ManualResetEventSlim RxEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.manualreseteventslim">ManualResetEventSlim</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Error_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Error*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Error_System_String_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Error(System.String,System.String)">
+  Error(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start immediate error recovery.
+Usually due to an error on the upper layer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+void Error(string opt_protocol_message, string log_message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>opt_protocol_message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional message that should be sent before disconnection</p>
+</dd>
+    <dt><code>log_message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Informative error description</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_IsReceiveThread_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.IsReceiveThread*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_IsReceiveThread" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.IsReceiveThread">
+  IsReceiveThread()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsReceiveThread()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_SendMessage_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.SendMessage*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_SendMessage_System_String_System_Boolean_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.SendMessage(System.String,System.Boolean)">
+  SendMessage(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deliver a protocol unit (as a string) to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SendMessage(string message, bool only_try = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>protocol unit (in string format)</p>
+</dd>
+    <dt><code>only_try</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>when true do not throw any exceptions</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Exceptions.DisconnectedStateException.html">DisconnectedStateException</a></dt>
+    <dd><p>If we are currently disconnected</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Start_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Start*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Start" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start the connection provider (connects to the
+server and start the automatic reconnection).
+<remarks></remarks>
+ConnectionData must be initialized or else an exception is thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Start_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Start*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Start_Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionData_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Start(Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionData)">
+  Start(IConnectionData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start the connection provider (connects to the
+server and start the automatic reconnection).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Start(IConnectionData connection_data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>connection_data</code> <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionData.html">IConnectionData</a></dt>
+    <dd><p>connection data</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Stop_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Stop*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_Stop_System_String_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.Stop(System.String)">
+  Stop(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stop the connection provider. Opposite of Start().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Stop(string opt_protocol_message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>opt_protocol_message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional message that should be sent before disconnection</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForConnection_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForConnection*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForConnection" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForConnection">
+  WaitForConnection()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Block and wait until the connection is established.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool WaitForConnection()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if the connection is established;
+false (should rarely happen) in case of a race-condition or when
+wait_time times out</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForConnection_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method might return true and the connection can get
+broken right after that, so do not assume after that method
+we are for sure in a &quot;connected&quot; state, it might have been
+just a temporary state.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForConnection_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForConnection*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForConnection_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForConnection(System.TimeSpan)">
+  WaitForConnection(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool WaitForConnection(TimeSpan wait_time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>wait_time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForDisconnection_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForDisconnection*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForDisconnection" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForDisconnection">
+  WaitForDisconnection()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Block and wait until the connection is not established anymore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool WaitForDisconnection()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForDisconnection_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForDisconnection*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_WaitForDisconnection_System_TimeSpan_" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.WaitForDisconnection(System.TimeSpan)">
+  WaitForDisconnection(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool WaitForDisconnection(TimeSpan wait_time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>wait_time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnAliveCheckNecessary" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnAliveCheckNecessary">
+  OnAliveCheckNecessary
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when the protocol requires an alive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.AliveCheckNecessaryDelegate OnAliveCheckNecessary</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.AliveCheckNecessaryDelegate.html">AliveCheckNecessaryDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnCommunicationError" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnCommunicationError">
+  OnCommunicationError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when a communication error on the physical connection is detected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.CommunicationErrorDelegate OnCommunicationError</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.CommunicationErrorDelegate.html">CommunicationErrorDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnConnected" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnConnected">
+  OnConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when the physical connection to the server is established.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.ConnectionDelegate OnConnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ConnectionDelegate.html">ConnectionDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnDisconnected" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnDisconnected">
+  OnDisconnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when the physical connection to the server is dropped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.ConnectionDelegate OnDisconnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ConnectionDelegate.html">ConnectionDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnMessageReceived" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnMessageReceived">
+  OnMessageReceived
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when a new protocol data unit in string format is received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.DataReceivedDelegate OnMessageReceived</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedDelegate.html">DataReceivedDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_Common_Interfaces_IConnectionProvider_OnValidDataCheckNecessary" data-uid="Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.OnValidDataCheckNecessary">
+  OnValidDataCheckNecessary
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked when the protocol requires a check for valid data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.ValidDataCheckNecessaryDelegate OnValidDataCheckNecessary</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ValidDataCheckNecessaryDelegate.html">ValidDataCheckNecessaryDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

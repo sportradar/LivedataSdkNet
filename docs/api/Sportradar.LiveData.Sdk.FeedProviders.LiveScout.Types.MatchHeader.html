@@ -1,0 +1,1727 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MatchHeader | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MatchHeader | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="Basic match information specifying match id, teams playing, bet status, feed type and other info.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader" class="text-break">
+Class MatchHeader  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.html">FeedProviders</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.html">LiveScout</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.html">Types</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Basic match information specifying match id, teams playing, bet status, feed type and other info.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class MatchHeader</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MatchHeader</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Active_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Active*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Active" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Active">
+  Active
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is match active?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Active { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_AwayState_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.AwayState*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_AwayState" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.AwayState">
+  AwayState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AwayState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_BetStatus_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.BetStatus*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_BetStatus" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.BetStatus">
+  BetStatus
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether market is open or closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchBetStatus? BetStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.MatchBetStatus.html">MatchBetStatus</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ConnectionStatus_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ConnectionStatus*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ConnectionStatus" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ConnectionStatus">
+  ConnectionStatus
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether scout is currently connected or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? ConnectionStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_CoverageStatusId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.CoverageStatusId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_CoverageStatusId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.CoverageStatusId">
+  CoverageStatusId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the coverage status identifier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? CoverageStatusId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_CoveredFrom_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.CoveredFrom*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_CoveredFrom" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.CoveredFrom">
+  CoveredFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the match is covered from TV or venue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Coverage? CoveredFrom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Coverage.html">Coverage</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Device_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Device*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Device" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Device">
+  Device
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Device used for scouting</p>
+<ul><li>1 – Hardphone/Asterisk</li><li>2 – Softphone</li><li>3 – Scout Admin</li><li>4 – Scout Mobile App</li><li>5 – External Data Feed</li></ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Device { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Distance_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Distance*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Distance" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Distance">
+  Distance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Distance between teams in km.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Distance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ExtMatchId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ExtMatchId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ExtMatchId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ExtMatchId">
+  ExtMatchId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ExtMatchId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ExtraInfo_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ExtraInfo*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ExtraInfo" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ExtraInfo">
+  ExtraInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Integer specifying special information for the match.
+Can be one of the following:</p>
+<ul><li>1 – Soccer match played 2*40 minutes (+2*10 minutes extra time)</li><li>2 – Tennis no advantage rule, super tie break to 10 points</li><li>3 – Tennis no advantage rule, super tie break to 7 points</li><li>4 – Tennis no advantage rule, no super tie break</li><li>5 – Tennis advantage rule, super tie break to 10 points</li><li>6 – Tennis advantage rule, super tie break to 7 points</li><li>7 – Basketball 12 minute periods</li><li>8 – Volleyball best of 3 sets</li><li>9 - Soccer match played 2*35 minutes (+2* 5 minutes extra time)</li><li>10 - Soccer match played 2*30 minutes (+2* 5 minutes extra time)</li><li>11 - Soccer match played 2*25 minutes (+2* 5 minutes extra time)</li><li>12 - Ice hockey 10 minutes extra time periods</li><li>13 - Ice hockey 20 minutes extra time periods</li><li>14 – Futsal match played 2*25 minutes (+2* 5 minutes extra time)</li></ul>
+Tennis advantage rule is when games must be won by at least 2 points
+(i.e. the use of deuce and advantage player X).
+In doubles matches advantage rule is usually not used.
+Super tie break in tennis is when the last set is a special tie break set.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? ExtraInfo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FeedPagination_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FeedPagination*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FeedPagination" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FeedPagination">
+  FeedPagination
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pagination properties that are provided when ScoutFeedType.FULL_PAGINATED is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FeedPagination? FeedPagination { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.FeedPagination.html">FeedPagination</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServe_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServe*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServe" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServe">
+  FirstServe
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which player / team has first serve of match (tennis).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team? FirstServe { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.html">Team</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServeGoldenSet_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServeGoldenSet*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServeGoldenSet" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServeGoldenSet">
+  FirstServeGoldenSet
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which player / team has first serve of golden set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team? FirstServeGoldenSet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.html">Team</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServeTieBreak_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServeTieBreak*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_FirstServeTieBreak" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.FirstServeTieBreak">
+  FirstServeTieBreak
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which player / team has first serve in tie-break (tennis).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team? FirstServeTieBreak { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.html">Team</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_HomeState_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.HomeState*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_HomeState" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.HomeState">
+  HomeState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HomeState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsBooked_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsBooked*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsBooked" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsBooked">
+  IsBooked
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the match is booked by the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsBooked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsCancelled_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsCancelled*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsCancelled" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsCancelled">
+  IsCancelled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsCancelled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsDeepCoverage_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsDeepCoverage*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsDeepCoverage" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsDeepCoverage">
+  IsDeepCoverage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this is a deep coverage match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDeepCoverage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsTimeRunning_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsTimeRunning*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_IsTimeRunning" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.IsTimeRunning">
+  IsTimeRunning
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether time/clock is running/active or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsTimeRunning { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_MatchId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.MatchId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_MatchId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.MatchId">
+  MatchId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Match Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MatchId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_MatchTime_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.MatchTime*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_MatchTime" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.MatchTime">
+  MatchTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Match time, mm:ss (e.g. 40:00 or 00:00).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MatchTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_NumberOfSets_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.NumberOfSets*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_NumberOfSets" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.NumberOfSets">
+  NumberOfSets
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of sets in match (tennis).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? NumberOfSets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_STime_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.STime*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_STime" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.STime">
+  STime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? STime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SetLimit_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SetLimit*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SetLimit" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SetLimit">
+  SetLimit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of points needed to win a set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? SetLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Sex_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Sex*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Sex" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Sex">
+  Sex
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gender (sex) of the player / team.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sex Sex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Sex.html">Sex</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SourceId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SourceId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SourceId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SourceId">
+  SourceId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Customer match id. Included if set up and if available for this match. Contact
+Sportradar in order to include this in the scout feed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SourceId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SportId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SportId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_SportId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.SportId">
+  SportId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the sport identifier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? SportId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St1Id_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.St1Id*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St1Id" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.St1Id">
+  St1Id
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar super team id for team 1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? St1Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St1Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Super team is the parent a certain team derives from.
+New sponsor might completely change the name of the team
+no matter it is actually the same thing.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St2Id_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.St2Id*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St2Id" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.St2Id">
+  St2Id
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar super team id for team 2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? St2Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_St2Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Super team is the parent a certain team derives from.
+New sponsor might completely change the name of the team
+no matter it is actually the same thing.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Start_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Start*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Start" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Start">
+  Start
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Official match start time, as a timestamp in UTC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? Start { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1">
+  Team1
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar team 1 (home team).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdNameTuple Team1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.html">IdNameTuple</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Abbreviation_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Abbreviation*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Abbreviation" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Abbreviation">
+  Team1Abbreviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Team 1 abbreviation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Team1Abbreviation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Division_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Division*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Division" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Division">
+  Team1Division
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Team1Division { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Natural_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Natural*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team1Natural" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team1Natural">
+  Team1Natural
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar team 1 (home team) - natural</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdNameTuple Team1Natural { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.html">IdNameTuple</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2">
+  Team2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar team 2 (away team).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdNameTuple Team2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.html">IdNameTuple</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Abbreviation_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Abbreviation*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Abbreviation" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Abbreviation">
+  Team2Abbreviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Team 2 abbreviation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Team2Abbreviation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Division_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Division*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Division" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Division">
+  Team2Division
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Team2Division { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Natural_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Natural*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Team2Natural" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Team2Natural">
+  Team2Natural
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Betradar team 2 (away team) - natural</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdNameTuple Team2Natural { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.html">IdNameTuple</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamMatch_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatch*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamMatch" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatch">
+  TeamMatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? TeamMatch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamMatchId_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatchId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamMatchId" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamMatchId">
+  TeamMatchId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? TeamMatchId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamsReversed_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamsReversed*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TeamsReversed" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TeamsReversed">
+  TeamsReversed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TeamsReversed TeamsReversed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.TeamsReversed.html">TeamsReversed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TieBreakLastSet_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TieBreakLastSet*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TieBreakLastSet" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TieBreakLastSet">
+  TieBreakLastSet
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Last set has tie break.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? TieBreakLastSet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TypeOfFeed_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TypeOfFeed*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_TypeOfFeed" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.TypeOfFeed">
+  TypeOfFeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this is a full, paginated full, delta or delta update message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScoutFeedType? TypeOfFeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutFeedType.html">ScoutFeedType</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Var_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Var*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Var" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Var">
+  Var
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Var { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_VbpClassification_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.VbpClassification*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_VbpClassification" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.VbpClassification">
+  VbpClassification
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VbpClassification VbpClassification { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.VbpClassification.html">VbpClassification</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Venue_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Venue*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_Venue" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.Venue">
+  Venue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Venue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_WonJumpBall_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.WonJumpBall*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_WonJumpBall" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.WonJumpBall">
+  WonJumpBall
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which team won jump ball at the start of the match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team? WonJumpBall { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.html">Team</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ToString_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ToString*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ToString" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Types_MatchHeader_ToString_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be used for diagnostics purposes.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

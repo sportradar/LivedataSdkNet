@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ILiveScout | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ILiveScout | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="Live scout client interface.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout" class="text-break">
+Interface ILiveScout  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.html">FeedProviders</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.html">LiveScout</a>.<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Live scout client interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILiveScout : ILiveFeeds, IStartable</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_OnFeedError">ILiveFeeds.OnFeedError</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_AvailableTranslations">ILiveFeeds.AvailableTranslations</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastAliveMessage">ILiveFeeds.LastAliveMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_LastServerMessage">ILiveFeeds.LastServerMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ServerTime">ILiveFeeds.ServerTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_SubscribedEvents">ILiveFeeds.SubscribedEvents</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_BookEvents_System_Collections_Generic_IEnumerable_System_Int64__">ILiveFeeds.BookEvents(IEnumerable&lt;long&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_ClearState">ILiveFeeds.ClearState()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Subscribe_System_Collections_Generic_IEnumerable_System_Int64__">ILiveFeeds.Subscribe(IEnumerable&lt;long&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html#Sportradar_LiveData_Sdk_FeedProviders_Common_Interfaces_ILiveFeeds_Unsubscribe_System_Collections_Generic_IEnumerable_System_Int64__">ILiveFeeds.Unsubscribe(IEnumerable&lt;long&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Start">IStartable.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html#Sportradar_LiveData_Sdk_Common_Interfaces_IStartable_Stop">IStartable.Stop()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_GetMatchList_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.GetMatchList*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_GetMatchList_System_Int32_System_Int32_System_Boolean_System_Int32___System_Int32___" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.GetMatchList(System.Int32,System.Int32,System.Boolean,System.Int32[],System.Int32[])">
+  GetMatchList(int, int, bool, int[], int[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request a list of available scout matches for a given time frame.
+By default only matches you have access to will be sent.
+You can also request all available matches by setting the <code class="paramref">include_avail</code>.
+If this is done the reply will also include matches that are open for booking.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetMatchList(int hours_back, int hours_fwd, bool include_avail = false, int[] sportIds = null, int[] matchIds = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hours_back</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Start of time frame</p>
+</dd>
+    <dt><code>hours_fwd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>End  of time frame</p>
+</dd>
+    <dt><code>include_avail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to also include all available matches for booking</p>
+</dd>
+    <dt><code>sportIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Filter by sports</p>
+</dd>
+    <dt><code>matchIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Filter by match ids ( Not implemented yet on LDS side )</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_SubscribeTest_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.SubscribeTest*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_SubscribeTest_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.SubscribeTest(System.Int64,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  SubscribeTest(long, int?, int?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request a full feed for the match, and then update messages will follow in the same pace as they were sent out live.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SubscribeTest(long match_id, int? message_delay = null, int? start_message = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>match_id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Match id.</p>
+</dd>
+    <dt><code>message_delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>Specifies how many milliseconds to wait in between sending out each message.</p>
+</dd>
+    <dt><code>start_message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>Specifies which message to start replay on (how far into the match).
+If startmessage is greater than or equal to the number of messages for the match, a full feed for the finished match is sent out, and no more messages will follow after this.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_SubscribeTest_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Int32___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This should only be used on the test server.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnClosed" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnClosed">
+  OnClosed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals that the underlaying connection has been closed (disconnect)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ConnectionChangeEventArgs&gt; OnClosed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ConnectionChangeEventArgs.html">ConnectionChangeEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnLineups" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnLineups">
+  OnLineups
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Player lineups for both teams were received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;LineupsEventArgs&gt; OnLineups</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LineupsEventArgs.html">LineupsEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnLineups_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The event is dispatched immediately after subscribing to a match and every time the lineup changes.
+XML configuration option &quot;Send lineups for matches where this is available&quot; needs to be activated (currently works just for deep coverage soccer matches).</p>
+</div>
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchBookingReply" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchBookingReply">
+  OnMatchBookingReply
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reply sent when a client books a match. If match booking failed for some reason
+(match already bought, match finished etc.), the reply will contain additional explanation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchBookingReplyEventArgs&gt; OnMatchBookingReply</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchBookingReplyEventArgs.html">MatchBookingReplyEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchData" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchData">
+  OnMatchData
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [on match data].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchDataEventArgs&gt; OnMatchData</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchDataEventArgs.html">MatchDataEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchList" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchList">
+  OnMatchList
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals that a list of matches in the time frame requested by the client has been received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchListEventArgs&gt; OnMatchList</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchListEventArgs.html">MatchListEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchListUpdate" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchListUpdate">
+  OnMatchListUpdate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals that an unsolicited list of matches has been received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchListEventArgs&gt; OnMatchListUpdate</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchListEventArgs.html">MatchListEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchStop" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchStop">
+  OnMatchStop
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reply sent after client unsubscribed from a match.
+It could also be sent if match subscription failed for any reason (e.g. too many match subscriptions).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchStopEventArgs&gt; OnMatchStop</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs.html">MatchStopEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdate" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchUpdate">
+  OnMatchUpdate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Signals that a match update message was received. There are three types of match information messages:
+full match feed, delta match feed and delta update feed (see MatchHeader.TypeOfFeed).
+All three can contain statistical information as well as individual events (an event being a goal, card, etc.).
+</p>
+<p>
+When a client application subscribes to a match, it will receive a full match update immediately after
+(given the subscription was successful). This message will contain all data for the match. Different event types
+are offered for different sports. Note that new event types will be added in the future.
+</p>
+<p>
+After a full match update is received, most updates will be sent as delta updates. In these messages only the new data is sent,
+if a yellow card is given only this event will be sent. In addition summary data will be sent for the event type in question,
+i.e. the total number of yellow cards for the home/away team for the match.
+</p>
+<p>
+If an existing event is changed, a delta update is sent for this event. E.g. a yellow card event is entered,
+and 1 minute later the event is updated by including which player got the card.
+Client must consider this as an update to an existing event, and not a new event (based on Event Id property).
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchUpdateEventArgs&gt; OnMatchUpdate</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html">MatchUpdateEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdateDelta" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchUpdateDelta">
+  OnMatchUpdateDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delta match update event.
+See <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html#Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdate">OnMatchUpdate</a> for more info.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchUpdateEventArgs&gt; OnMatchUpdateDelta</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html">MatchUpdateEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdateDeltaUpdate" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchUpdateDeltaUpdate">
+  OnMatchUpdateDeltaUpdate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delta update match update event.
+See <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html#Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdate">OnMatchUpdate</a> for more info.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchUpdateEventArgs&gt; OnMatchUpdateDeltaUpdate</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html">MatchUpdateEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdateFull" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchUpdateFull">
+  OnMatchUpdateFull
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Full match update event.
+See <a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html#Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdate">OnMatchUpdate</a> for more info.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchUpdateEventArgs&gt; OnMatchUpdateFull</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html">MatchUpdateEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnMatchUpdateFullPaginated" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnMatchUpdateFullPaginated">
+  OnMatchUpdateFullPaginated
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Paginated full match update event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;MatchUpdateEventArgs&gt; OnMatchUpdateFullPaginated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html">MatchUpdateEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnOpened" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnOpened">
+  OnOpened
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals that the underlaying connection has been opened (connect)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ConnectionChangeEventArgs&gt; OnOpened</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ConnectionChangeEventArgs.html">ConnectionChangeEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_Interfaces_ILiveScout_OnScoutInfo" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.OnScoutInfo">
+  OnScoutInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signals some basic information about the match. Sent out when a client subscribes to a match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ScoutInfoEventArgs&gt; OnScoutInfo</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs.html">ScoutInfoEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

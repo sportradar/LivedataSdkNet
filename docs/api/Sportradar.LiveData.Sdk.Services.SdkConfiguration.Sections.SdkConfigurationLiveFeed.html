@@ -1,0 +1,1336 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SdkConfigurationLiveFeed | sportradar.livedata.sdk </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SdkConfigurationLiveFeed | sportradar.livedata.sdk ">
+      
+      <meta name="description" content="SDK configuration element where common live feed provider settings are stored (connectivity, rate limiters, etc.).">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="sportradar.livedata.sdk">
+            sportradar.livedata.sdk
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed">
+
+
+
+  <h1 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed" class="text-break">
+Class SdkConfigurationLiveFeed  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Sportradar.html">Sportradar</a>.<a class="xref" href="Sportradar.LiveData.html">LiveData</a>.<a class="xref" href="Sportradar.LiveData.Sdk.html">Sdk</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.html">Services</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.html">SdkConfiguration</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.html">Sections</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Sportradar.LiveData.Sdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>SDK configuration element where common live feed provider settings are stored (connectivity, rate limiters, etc.).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DynamicConfigIgnoreClass]
+public abstract class SdkConfigurationLiveFeed : ConfigurationElementFeed</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a></div>
+      <div><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html">ConfigurationElementFeed</a></div>
+      <div><span class="xref">SdkConfigurationLiveFeed</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveScout.html">SdkConfigurationLiveScout</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_AlertLogLevel">ConfigurationElementFeed.AlertLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_ClientInteractionLogLevel">ConfigurationElementFeed.ClientInteractionLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_ConfigLogLevel">ConfigurationElementFeed.ConfigLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_DeadLetterLogLevel">ConfigurationElementFeed.DeadLetterLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_InvalidMsgLogLevel">ConfigurationElementFeed.InvalidMsgLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_StatsLogLevel">ConfigurationElementFeed.StatsLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_TrafficLogLevel">ConfigurationElementFeed.TrafficLogLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_LoggingFeedName">ConfigurationElementFeed.LoggingFeedName</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_TotalBufferSize">ConfigurationElementFeed.TotalBufferSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_SchemaValidationStrictness">ConfigurationElementFeed.SchemaValidationStrictness</a>
+    </div>
+    <div>
+      <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_ConfigurationElementFeed_ReceiveBufferSize">ConfigurationElementFeed.ReceiveBufferSize</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.deserializeelement">ConfigurationElement.DeserializeElement(XmlReader, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.equals">ConfigurationElement.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.gethashcode">ConfigurationElement.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.gettransformedassemblystring">ConfigurationElement.GetTransformedAssemblyString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.gettransformedtypestring">ConfigurationElement.GetTransformedTypeString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.init">ConfigurationElement.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.initializedefault">ConfigurationElement.InitializeDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.ismodified">ConfigurationElement.IsModified()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.listerrors">ConfigurationElement.ListErrors(IList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.ondeserializeunrecognizedattribute">ConfigurationElement.OnDeserializeUnrecognizedAttribute(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.ondeserializeunrecognizedelement">ConfigurationElement.OnDeserializeUnrecognizedElement(string, XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.onrequiredpropertynotfound">ConfigurationElement.OnRequiredPropertyNotFound(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.postdeserialize">ConfigurationElement.PostDeserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.preserialize">ConfigurationElement.PreSerialize(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.reset">ConfigurationElement.Reset(ConfigurationElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.resetmodified">ConfigurationElement.ResetModified()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.serializeelement">ConfigurationElement.SerializeElement(XmlWriter, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.serializetoxmlelement">ConfigurationElement.SerializeToXmlElement(XmlWriter, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.setpropertyvalue">ConfigurationElement.SetPropertyValue(ConfigurationProperty, object, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.setreadonly">ConfigurationElement.SetReadOnly()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.unmerge">ConfigurationElement.Unmerge(ConfigurationElement, ConfigurationElement, ConfigurationSaveMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.currentconfiguration">ConfigurationElement.CurrentConfiguration</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.elementinformation">ConfigurationElement.ElementInformation</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.elementproperty">ConfigurationElement.ElementProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.evaluationcontext">ConfigurationElement.EvaluationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.hascontext">ConfigurationElement.HasContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationproperty">ConfigurationElement.this[ConfigurationProperty]</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ConfigurationElement.this[string]</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.lockallattributesexcept">ConfigurationElement.LockAllAttributesExcept</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.lockallelementsexcept">ConfigurationElement.LockAllElementsExcept</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.lockattributes">ConfigurationElement.LockAttributes</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.lockelements">ConfigurationElement.LockElements</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.lockitem">ConfigurationElement.LockItem</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement.properties">ConfigurationElement.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed__ctor_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.#ctor*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed__ctor" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.#ctor">
+  SdkConfigurationLiveFeed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SdkConfigurationLiveFeed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_BookmakerId_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.BookmakerId*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_BookmakerId" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.BookmakerId">
+  BookmakerId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bookmaker (client) id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;BookmakerId&quot;, IsRequired = false, DefaultValue = null)]
+[CallbackValidator(Type = typeof(PropertyValidators), CallbackMethodName = &quot;ValidateNullableInt&quot;)]
+public int? BookmakerId { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_BookmakerId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This one will override the <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationCommon.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationCommon_BookmakerId">common</a> settings.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ClientAliveMsgTimeout_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ClientAliveMsgTimeout*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ClientAliveMsgTimeout" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ClientAliveMsgTimeout">
+  ClientAliveMsgTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Client alive message timeout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;ClientAliveMsgTimeout&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[TimeSpanValidator]
+public TimeSpan ClientAliveMsgTimeout { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ClientAliveMsgTimeout_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>TimeSpan.Zero means default timeout will be used.
+BEWARE: there is probably no need to change it unless the protocol updates.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterInterval_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.EventRequestLimiterInterval*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterInterval" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.EventRequestLimiterInterval">
+  EventRequestLimiterInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>MatchRequest limiter (interval).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;EventRequestLimiterInterval&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+public TimeSpan EventRequestLimiterInterval { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterInterval_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When TimeSpan.Zero the default settings as appropriate for the server are used.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterNumber_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.EventRequestLimiterNumber*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterNumber" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.EventRequestLimiterNumber">
+  EventRequestLimiterNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>MatchRequest limiter (number).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;EventRequestLimiterNumber&quot;, IsRequired = false, DefaultValue = 0)]
+[DynamicConfigItem]
+public int EventRequestLimiterNumber { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterNumber_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_EventRequestLimiterInterval">EventRequestLimiterInterval</a> must not be set to TimeSpan.Zero.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Hostname_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Hostname*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Hostname" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Hostname">
+  Hostname
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Host name (overrides automatic defaults for servers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;Hostname&quot;, IsRequired = false, DefaultValue = null)]
+public string Hostname { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Insecure_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Insecure*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Insecure" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Insecure">
+  Insecure
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether insecure version of the connection provider should be used that doesn't check the SSL server certificate thumbprint.
+Implicitly set by <a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationCommon.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationCommon_SafeMode">SafeMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;Insecure&quot;, IsRequired = false, DefaultValue = false)]
+public bool Insecure { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_InvalidDataReconnectWait_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.InvalidDataReconnectWait*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_InvalidDataReconnectWait" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.InvalidDataReconnectWait">
+  InvalidDataReconnectWait
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delay before we try reconnecting to server after we got invalid data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;InvalidDataReconnectWait&quot;, IsRequired = false, DefaultValue = &quot;00:00:10&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[PositiveTimeSpanValidator]
+public TimeSpan InvalidDataReconnectWait { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterInterval_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.LoginLimiterInterval*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterInterval" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.LoginLimiterInterval">
+  LoginLimiterInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Login limiter (interval).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;LoginLimiterInterval&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+public TimeSpan LoginLimiterInterval { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterInterval_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When TimeSpan.Zero the default settings as appropriate for the server are used.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterNumber_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.LoginLimiterNumber*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterNumber" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.LoginLimiterNumber">
+  LoginLimiterNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Login limiter (number).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;LoginLimiterNumber&quot;, IsRequired = false, DefaultValue = 0)]
+[DynamicConfigItem]
+public int LoginLimiterNumber { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterNumber_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_LoginLimiterInterval">LoginLimiterInterval</a> must not be set to TimeSpan.Zero.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxReconnectWait_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxReconnectWait*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxReconnectWait" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxReconnectWait">
+  MaxReconnectWait
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delay before we try reconnecting to server after we got disconnected (max, overrides automatic defaults for servers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MaxReconnectWait&quot;, IsRequired = false, DefaultValue = &quot;00:00:15&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[PositiveTimeSpanValidator]
+public TimeSpan MaxReconnectWait { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxRequestEventIds_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxRequestEventIds*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxRequestEventIds" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxRequestEventIds">
+  MaxRequestEventIds
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Max number of match ids that a client can specify in any request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MaxRequestEventIds&quot;, IsRequired = false, DefaultValue = 100)]
+[DynamicConfigItem]
+[IntegerValidator(MinValue = 1, MaxValue = 1000)]
+public int MaxRequestEventIds { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxRequestTimeAllowance_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxRequestTimeAllowance*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxRequestTimeAllowance" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxRequestTimeAllowance">
+  MaxRequestTimeAllowance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum amount of time for request response</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MaxRequestTimeAllowance&quot;, IsRequired = false, DefaultValue = &quot;00:00:10&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+public TimeSpan MaxRequestTimeAllowance { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxServerTimestampAge_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxServerTimestampAge*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxServerTimestampAge" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxServerTimestampAge">
+  MaxServerTimestampAge
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server timestamp is only usable to us if it is not outdated so that we can interpolate between two successive server timestamps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MaxServerTimestampAge&quot;, IsRequired = false, DefaultValue = &quot;00:05:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[PositiveTimeSpanValidator]
+public TimeSpan MaxServerTimestampAge { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxTimeSkew_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxTimeSkew*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxTimeSkew" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MaxTimeSkew">
+  MaxTimeSkew
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum time difference between local time and server time.
+When detected time skew is over this limit the connection to the server will be immediately
+dropped and a reconnect attempted.</p>
+<p>Usual time skew values should be:</p>
+<ol><li>10 minutes when no time synchronization is performed</li><li>5 seconds (if NTP protocol is used for time synchronization)</li><li>TimeSpan.Zero means the setting is off (which is the default in SafeMode)</li></ol>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MaxTimeSkew&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[TimeSpanValidator]
+public TimeSpan MaxTimeSkew { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MaxTimeSkew_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>BEWARE! Low values might prevent a successful connection to the server or cause undesired
+disconnecting / reconnecting. That in turn might lead to connection blocking on
+the server side.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MinReconnectWait_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MinReconnectWait*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_MinReconnectWait" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.MinReconnectWait">
+  MinReconnectWait
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delay before we try reconnecting to server after we got disconnected (min, overrides automatic defaults for servers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;MinReconnectWait&quot;, IsRequired = false, DefaultValue = &quot;00:00:05&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[PositiveTimeSpanValidator]
+public TimeSpan MinReconnectWait { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Port_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Port*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Port" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Port">
+  Port
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Port number (overrides automatic defaults for servers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;Port&quot;, IsRequired = false, DefaultValue = 0)]
+[IntegerValidator(MinValue = 0, MaxValue = 65535)]
+public int Port { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ReceiveTimeout_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ReceiveTimeout*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ReceiveTimeout" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ReceiveTimeout">
+  ReceiveTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Amount of time to wait for (socket) receive operation to complete successfully.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;ReceiveTimeout&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[TimeSpanValidator]
+public TimeSpan ReceiveTimeout { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ReceiveTimeout_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>TimeSpan.Zero means default timeout will be used, negative value means use maximum value.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterInterval_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RequestLimiterInterval*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterInterval" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RequestLimiterInterval">
+  RequestLimiterInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request limiter (interval).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;RequestLimiterInterval&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+public TimeSpan RequestLimiterInterval { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterInterval_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When TimeSpan.Zero the default settings as appropriate for the server are used.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterNumber_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RequestLimiterNumber*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterNumber" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RequestLimiterNumber">
+  RequestLimiterNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request limiter (number).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;RequestLimiterNumber&quot;, IsRequired = false, DefaultValue = 0)]
+[DynamicConfigItem]
+public int RequestLimiterNumber { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterNumber_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html#Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RequestLimiterInterval">RequestLimiterInterval</a> must not be set to TimeSpan.Zero.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RestartOnParseError_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RestartOnParseError*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_RestartOnParseError" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.RestartOnParseError">
+  RestartOnParseError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, the feed will reconnect on any parse error</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;RestartOnParseError&quot;, IsRequired = false, DefaultValue = false)]
+public bool RestartOnParseError { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_SSLThumbprint_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.SSLThumbprint*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_SSLThumbprint" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.SSLThumbprint">
+  SSLThumbprint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Optional SSL server certificate thumbprint (overrides automatic defaults for servers)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;SSLThumbprint&quot;, IsRequired = false, DefaultValue = null)]
+public string SSLThumbprint { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_SendTimeout_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.SendTimeout*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_SendTimeout" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.SendTimeout">
+  SendTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Amount of time to wait for (socket) send operation to complete successfully.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;SendTimeout&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[TimeSpanValidator]
+public TimeSpan SendTimeout { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_SendTimeout_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>TimeSpan.Zero means default timeout will be used, negative value means use maximum value.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ServerAliveMsgTimeout_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ServerAliveMsgTimeout*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ServerAliveMsgTimeout" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.ServerAliveMsgTimeout">
+  ServerAliveMsgTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server alive message timeout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;ServerAliveMsgTimeout&quot;, IsRequired = false, DefaultValue = &quot;00:00:00&quot;)]
+[DynamicConfigItem]
+[TypeConverter(typeof(TimeSpanConverter))]
+[TimeSpanValidator]
+public TimeSpan ServerAliveMsgTimeout { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_ServerAliveMsgTimeout_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>TimeSpan.Zero means default timeout will be used.
+BEWARE: there is probably no need to change it unless the protocol updates.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Test_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Test*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Test" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.Test">
+  Test
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether we should connect to development/test server instead of production one.
+Cannot be used for LiveOddsVfl and BetPal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;Test&quot;, IsRequired = false, DefaultValue = false)]
+public bool Test { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_Test_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Note that test accounts are disabled on weekends.</p>
+</div>
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_TimeKeeperMaxSamples_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.TimeKeeperMaxSamples*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_TimeKeeperMaxSamples" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.TimeKeeperMaxSamples">
+  TimeKeeperMaxSamples
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>TimeKeeper should keep that many samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;TimeKeeperMaxSamples&quot;, IsRequired = false, DefaultValue = 10)]
+[DynamicConfigItem]
+public int TimeKeeperMaxSamples { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_UseSSL_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.UseSSL*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_UseSSL" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.UseSSL">
+  UseSSL
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether SSL sockets should be used for communication (overrides automatic defaults for servers).
+Cannot be used for LiveScout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;UseSSL&quot;, IsRequired = false, DefaultValue = true)]
+public bool UseSSL { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_IsReadOnly_" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.IsReadOnly*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_Services_SdkConfiguration_Sections_SdkConfigurationLiveFeed_IsReadOnly" data-uid="Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.IsReadOnly">
+  IsReadOnly()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override of ConfigurationElement.IsReadOnly, always returns false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsReadOnly()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

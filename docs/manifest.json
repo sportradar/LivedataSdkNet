@@ -1,0 +1,4948 @@
+{
+  "source_base_path": "C:/WORK/sportradar.livedata.sdk",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.AssemblyGitBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.AssemblyGitBuild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.DynamicConfigIgnoreClassAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.DynamicConfigIgnoreClassAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.DynamicConfigItemAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.DynamicConfigItemAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.CommonLoggerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.CommonLoggerManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.Priority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.ProtocolProviderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.ProtocolProviderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.SchemaValidationStrictness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.SchemaValidationStrictness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.BufferOverflowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.BufferOverflowException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.DefaultExceptionRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.DefaultExceptionRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.DisconnectedStateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.DisconnectedStateException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.InitException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.InitException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.InvalidDataReceivedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.InvalidDataReceivedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.LoginRateLimitingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.LoginRateLimitingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.NotInitializedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.NotInitializedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.NotStartedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.NotStartedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.RateLimitingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.RateLimitingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.SdkBaseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.SdkBaseException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.SdkConfigException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.SdkConfigException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.TimeSkewException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.TimeSkewException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.GlobalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.GlobalSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.AliveCheckNecessaryDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.AliveCheckNecessaryDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.CommunicationErrorDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.CommunicationErrorDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ConnectionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ConnectionDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedOutcome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedOutcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.Outcome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.Outcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.SimpleDataReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.SimpleDataReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ValidDataCheckNecessaryDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.ValidDataCheckNecessaryDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.DispatchStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.DispatchStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.DispatcherOperationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.DispatcherOperationMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.GuidIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.GuidIdentifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ICipherSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ICipherSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IClientPersistentState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IClientPersistentState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IConnectionProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IDeadLetterQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IDeadLetterQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IFeedDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IFeedDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ILoggerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ILoggerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IMessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IMessageDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IMessageIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IMessageIdentifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IPersistentStateBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IPersistentStateBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IPoisonQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IPoisonQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IProtocolResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IRateGate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IRateGate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.IStartable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ITimeKeeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ITimeKeeper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageDispatcherDelegates.DispatcherHealthStatusDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageDispatcherDelegates.DispatcherHealthStatusDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageDispatcherDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageDispatcherDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.MessageIdentifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PersistentStateDelegates.PersistentStateStatusChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PersistentStateDelegates.PersistentStateStatusChangedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PersistentStateDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PersistentStateDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.PoisonQueueEltDead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.PoisonQueueEltDead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.PoisonQueueEltPromoted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.PoisonQueueEltPromoted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.PoisonQueueDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.QueueLimitType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.LoggerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.LoggerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.AliveCheckData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.AliveCheckData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetOutcome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetOutcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetTypeKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetTypeKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.BetValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.CipherSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.CipherSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ClientPersistentStateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ClientPersistentStateItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ConnectionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ConnectionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.EntityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.EntityBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.LiveOddsPersistentStateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.LiveOddsPersistentStateItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.LocalizedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.LocalizedString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PersistentStateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PersistentStateItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PersistentStateItemKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PersistentStateItemKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PoisonQueueElt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PoisonQueueElt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PriorityQueueElt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.PriorityQueueElt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ProtocolData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.ProtocolData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.TypeValueTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.TypeValueTuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.AutoExpireDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.AutoExpireDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.CloningDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.CloningDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.CommonUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.DiffEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.DiffEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.FtpLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.FtpLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.FtpProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.FtpProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.IResequencer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.IResequencer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.IStash-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.IStash-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.LevelTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.LevelTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.MathExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.MathExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.ObjectReflectionFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.ObjectReflectionFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.StreamWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.StreamWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.StringUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.StringUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.TimeKeeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.TimeKeeper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.TimeKeeperResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.TimeKeeperResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.ToStringBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.ToStringBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.XmlUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.XmlUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.DataReceivedDelegates.DataStreamReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.DataReceivedDelegates.DataStreamReceived.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.DataReceivedDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.DataReceivedDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.HttpQueueFetcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.HttpQueueFetcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IIntervalFetcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IIntervalFetcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IQueueFetcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IQueueFetcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IntervalFetcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.IntervalFetcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.InsecureTcpConnectionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.InsecureTcpConnectionProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.EstablishConnectionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.EstablishConnectionDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.LineReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.LineReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.TcpConnectionProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Connections.Tcp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.HomeAway-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.HomeAway-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.IdNameTuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.ErrorCause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.ErrorCause.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.ErrorSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.ErrorSeverity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.Team.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.TeamsReversed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.TeamsReversed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Events.FeedErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Events.FeedErrorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.ILiveFeeds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.Common.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ConnectionTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ConnectionTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Lineups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Lineups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchBooking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchBooking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchListUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchListUpdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchStop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.MatchUpdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ScoutEntityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ScoutEntityBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ScoutInfos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.ScoutInfos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Suspensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.Suspensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.TeamOffical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.TeamOffical.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.BookMatchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.BookMatchResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Coverage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Coverage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.EventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.EventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.FormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.FormatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.IceConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.IceConditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Inning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Inning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.MatchBetStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.MatchBetStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.PitchConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.PitchConditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutFeedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutFeedType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutMatchStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutMatchStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutMatchStatusClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.ScoutMatchStatusClasses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Sex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.Sex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.SurfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.SurfaceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamStatsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamStatsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.VbpClassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.VbpClassification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.WeatherConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.WeatherConditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ConnectionChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ConnectionChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LineupsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LineupsEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchBookingReplyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchBookingReplyEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchDataEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchDataEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchListEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchListEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchStopEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.MatchUpdateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.ScoutInfoEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.LiveScoutEntityFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Factories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.ILiveScout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.BattersStatsTotal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.BattersStatsTotal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Behinds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Behinds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Court.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Court.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.FeedPagination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.FeedPagination.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Goals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Goals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Gold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Gold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.InningScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.InningScore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Innings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Innings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Jersey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Jersey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.MatchTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Networth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Networth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PitchersStatsTotal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PitchersStatsTotal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PlayerStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PlayerStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PlayerStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.PlayerStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Score.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Score.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Scout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Scout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.ScoutInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Statistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Stats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.SubTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.SubTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.DefaultLogMessageConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.DefaultLogMessageConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.LoggerExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.AbstractProtocolProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.AbstractProtocolProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.LiveScoutProtocolProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.LiveScoutProtocolProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.LiveScoutUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.LiveScoutUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.LiveScout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.ProtocolProviderDelegates.ParsedDataReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.ProtocolProviderDelegates.ParsedDataReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.ProtocolProviderDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.ProtocolProviderDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.ProtocolProviders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ClientData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ClientData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.bookmatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.bookmatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.clientversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.clientversion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.credential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.credential.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.login.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.loginname.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.loginname.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.logout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.logout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.match.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchFeedtype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchFeedtype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistIncludeavailable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistIncludeavailable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistMatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistSport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchlistSport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchstop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchstop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchsubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchsubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchunsubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.matchunsubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.password.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.password.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.servertime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.servertime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.ServerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.ServerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.battersstatstotal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.battersstatstotal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.battersstatstotalSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.battersstatstotalSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.behinds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.behinds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.black.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.black.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.bookmatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.bookmatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.bookmatchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.bookmatchResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.corners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.corners.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.court.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.court.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.ct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.ct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.dangerousattacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.dangerousattacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.dbfail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.dbfail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.directfoulsperiod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.directfoulsperiod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.directfreekicks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.directfreekicks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventInninghalf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventInninghalf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventconfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventconfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventconfigSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.eventconfigSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteam1sthalf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteam1sthalf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteam2ndhalf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteam2ndhalf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteamot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.firstkickoffteamot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.flashconfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.flashconfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.formatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.formatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.freekicks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.freekicks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.freethrows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.freethrows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goalkeepersaves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goalkeepersaves.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goalkicks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goalkicks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.goals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.gold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.gold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.green.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.green.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.iceconditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.iceconditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.iceconditionsName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.iceconditionsName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.infos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.infos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.injuries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.injuries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.innings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.innings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.inningscore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.inningscore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.jersey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.jersey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.jerseys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.jerseys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.kickoffteam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.kickoffteam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.lineups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.lineups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.login.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.loginErrorcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.loginErrorcode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.loginResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.loginResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.match.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchBetstatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchBetstatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchCoveredfrom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchCoveredfrom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFeedtype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFeedtype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstserve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstserve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstservegoldenset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstservegoldenset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstservetiebreak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchFirstservetiebreak.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchVbpclassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchVbpclassification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchWonjumpball.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchWonjumpball.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchdata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchdata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchformat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchformat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchlist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchlistupdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchlistupdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchproperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchproperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchproperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchproperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchpropertyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchpropertyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchrole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchrole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchroles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchroles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchstop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.matchstop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.multimatchsubscriptionresponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.multimatchsubscriptionresponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.networth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.offsides.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.offsides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff1stperiod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff1stperiod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff2ndperiod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff2ndperiod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff3rdperiod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoff3rdperiod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoffovertime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.openingfaceoffovertime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.penalties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.penalties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchconditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchconditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchconditionsName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchconditionsName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchersstatstotal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchersstatstotal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchersstatstotalSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.pitchersstatstotalSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.playerstats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.playerstats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.possession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.possession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.possessionTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.possessionTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.red.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.red.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.score.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.score.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.scout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.scout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serveTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serveTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.servertime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.servertime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serverversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.serverversion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsblocked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsblocked.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsofftarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsofftarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsontarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.shotsontarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.sport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.sport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.statistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.stats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.statusName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.statusName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.subteam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetypeName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.surfacetypeName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.suspensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.suspensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.team.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamofficial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamofficial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstatsSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstatsSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstatsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamstatsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.throwins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.throwins.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.tiebreak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.tiebreak.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.tournament.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.tournament.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.user.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.user.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.weatherconditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.weatherconditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.weatherconditionsName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.weatherconditionsName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.yellow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.yellow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Service.LiveScoutTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Service.LiveScoutTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Service.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Service.Program.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Service.Worker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Service.Worker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Service.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.MessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.MessageDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.SafeMessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.SafeMessageDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.MessageDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.DummyDeadLetterQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.DummyDeadLetterQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.DummyPersistentState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.DummyPersistentState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.NullObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.PersistentStateBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.PersistentStateBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.SafePersistentStateBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.SafePersistentStateBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PersistentStateBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.BinaryHeapEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.BinaryHeapEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.SyncBinaryHeap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.SyncBinaryHeap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.BinaryHeap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.ILimitedPriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.ILimitedPriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.IPriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.IPriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueueDelegates.QueueLimitDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueueDelegates.QueueLimitDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueueDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.LimitedPriorityQueueDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.PriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.PriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.SafePriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.SafePriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.PriorityQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.AvgMinMax-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.AvgMinMax-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.ClientQueueStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.ClientQueueStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.IMonitoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.IMonitoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.IQueueTimeStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueCongestionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueCongestionDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueTimeStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.QueueTimeStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.SafeQueueTimeStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.SafeQueueTimeStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueSupervisor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.QueueSupervisor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.AndRateGate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.AndRateGate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.RateGate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.RateGate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.RateGateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.RateGateExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.ForwardDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.ForwardDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.ObjToSizeDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.ObjToSizeDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.TokenBucket-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.RateLimiter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Sdk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Sdk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.AppConfigFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.AppConfigFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.AppConfigWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.AppConfigWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.HardcodedConfigFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.HardcodedConfigFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.IConfigFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.IConfigFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ConfigFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.SecureStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.SecureStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.StringArrayConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.StringArrayConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.FeedConfig.ServerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.FeedConfig.ServerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.FeedConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.FeedConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ISdkConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ISdkConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.PropertyValidators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.PropertyValidators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ProviderConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.ProviderConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkConfigurationDelegates.ConfigReloadedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkConfigurationDelegates.ConfigReloadedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkConfigurationDelegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkConfigurationDelegates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkLiveConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.SdkLiveConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationCommon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationDynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationDynamic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveFeed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveScout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationLiveScout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationMessageDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationMessageDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationPersistentState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationPersistentState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationSection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Validators.NullableIntegerValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Validators.NullableIntegerValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.DynamicSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.DynamicSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.HttpRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.HttpRequester.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.Dynamic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.IProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.IProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.ProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.ProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfigurationManipulation.ProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.ISdkLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.ISdkLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SafeSdkLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogAppenderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.SdkLoggerCfg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicConstructorDependenciesModelInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.NonPublicConstructorDependenciesModelInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.WindsorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.ConnectionTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.ConnectionTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.MatchListTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.MatchListTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.SdkIntegrationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.SdkIntegrationTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.IntegrationTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.LiveScoutTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.LiveScoutTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.Program.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.TestApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.TestApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsOne.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsOne.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsTwo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsTwo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsUndefined.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.WhenTeamsReversedIsUndefined.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.Common.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.UnitTestForLiveScoutEntityFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.UnitTestForLiveScoutEntityFactory-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingFakeBetStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingFakeBetStop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForAwayTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForAwayTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForHomeTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForHomeTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForUndefinedTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingManagerForUndefinedTeam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchBookingMatchNotSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchBookingMatchNotSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchBookingMatchSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchBookingMatchSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchHeaderAndFeedTypeIsNotFullPaginated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchHeaderAndFeedTypeIsNotFullPaginated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchHeaderForPaginatedFeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchHeaderForPaginatedFeed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithScoutEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithScoutEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithStatisticsEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithStatisticsEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithSubTeams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.WhenBuildingMatchUpdateWithSubTeams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.FeedProviders.LiveScout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.IUnitTestFor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.IUnitTestFor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.UnitTestForHomeAwayTest-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.UnitTestForHomeAwayTest-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.UnitTestForIdNameTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.UnitTestForIdNameTuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsDouble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsNullableInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenHomeAwayIsNullableInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenIdIsNotSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenIdIsNotSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenIdIsSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenIdIsSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenNameIsNotNull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenNameIsNotNull.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenNameIsNull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenNameIsNull.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenUniqueIdIsNotSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenUniqueIdIsNotSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenUniqueIdIsSpecified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.WhenUniqueIdIsSpecified.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.Providers.Feeds.Common.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.UnitTestFor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.UnitTestFor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Tests.Unit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/connection-scheme.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/connection-scheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/connection_scheme.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/connection_scheme.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
