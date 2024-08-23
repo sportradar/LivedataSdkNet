@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.1.11] - 2024-08-23
+Updated LiveScoutFeedProvider.Unsubscribe to send a single batch "matchunsubscription" request instead of individual "matchstop" requests for each match ID.
+
 ## [1.1.10] - 2024-06-03
 ScoutEvent extended with new properties:
 - Statistics
