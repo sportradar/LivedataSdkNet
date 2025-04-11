@@ -1,5 +1,55 @@
 # Change Log
 
+## [1.1.15] - 2025-04-08
+Update for MatchFormat - THREEPOINTCONVERSIONYARDLINE has been added to FormatType enum.
+
+## [1.1.14] - 2025-03-27
+ScoutEvent extended with PointInGameNumber property.
+
+MatchHeader extended with new properties:
+- IsRTS
+- ExpectedLatencyLevel
+- ExpectedLatencyLevelString
+
+New enum added - LatencyLevel
+
+## [1.1.13] - 2025-03-25
+Traffic logs now include time since last message.
+
+FinalConfidence for ScoutEvent has been changed from string to integer.
+
+PlayerStatistics for ScoutEvent has been extended with new properties:
+- HomePlayerStatsSet1
+- HomePlayerStatsSet2
+- HomePlayerStatsSet3
+- HomePlayerStatsSet4
+- HomePlayerStatsSet5
+- AwayPlayerStatsSet1
+- AwayPlayerStatsSet2
+- AwayPlayerStatsSet3
+- AwayPlayerStatsSet4
+- AwayPlayerStatsSet5
+
+Statistics and PlayerStatistics for ScoutEvent has been extended:
+- TeamPlayerStats added to Statistics
+
+New type added - TeamPlayerStats
+
+New enum added - TeamPlayerStatsType
+
+## [1.1.12] - 2024-10-18
+MatchUpdate extended with new properties
+- TryCount
+- Fouls  
+
+ScoutEvent extended with new properties
+- BallEvent
+- PlayerId
+- TrackCoordinates
+- FinalConfidence
+
+- Player extended with new property - SpecificContracts
+
 ## [1.1.11] - 2024-08-23
 Updated LiveScoutFeedProvider.Unsubscribe to send a single batch "matchunsubscription" request instead of individual "matchstop" requests for each match ID.
 
