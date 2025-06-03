@@ -317,37 +317,6 @@ Class LiveScoutFeedProvider
 
 
 
-  <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_LiveScoutFeedProvider_ProtoProvider_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.ProtoProvider*"></a>
-
-  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_LiveScoutFeedProvider_ProtoProvider" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.ProtoProvider">
-  ProtoProvider
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IProtocolProvider ProtoProvider { get; protected set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.html">IProtocolProvider</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_LiveScoutFeedProvider_ProviderType_" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.ProviderType*"></a>
 
   <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_LiveScoutFeedProvider_ProviderType" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.ProviderType">
@@ -608,6 +577,36 @@ Class LiveScoutFeedProvider
   <div class="markdown level1 remarks"><p>The event is dispatched immediately after subscribing to a match and every time the lineup changes.
 XML configuration option &quot;Send lineups for matches where this is available&quot; needs to be activated (currently works just for deep coverage soccer matches).</p>
 </div>
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_FeedProviders_LiveScout_LiveScoutFeedProvider_OnLoginFailed" data-uid="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.LiveScoutFeedProvider.OnLoginFailed">
+  OnLoginFailed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;LoginFailedEventArgs&gt; OnLoginFailed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LoginFailedEventArgs.html">LoginFailedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

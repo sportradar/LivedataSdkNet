@@ -120,6 +120,37 @@ Interface IProtocolProvider
 </h2>
 
 
+  <a id="Sportradar_LiveData_Sdk_ProtocolProviders_IProtocolProvider_AuthService_" data-uid="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.AuthService*"></a>
+
+  <h3 id="Sportradar_LiveData_Sdk_ProtocolProviders_IProtocolProvider_AuthService" data-uid="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.AuthService">
+  AuthService
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AuthService AuthService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Services.Authentication.AuthService.html">AuthService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Sportradar_LiveData_Sdk_ProtocolProviders_IProtocolProvider_ConnectionProvider_" data-uid="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.ConnectionProvider*"></a>
 
   <h3 id="Sportradar_LiveData_Sdk_ProtocolProviders_IProtocolProvider_ConnectionProvider" data-uid="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.ConnectionProvider">
@@ -196,7 +227,8 @@ Interface IProtocolProvider
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string LogoutMessage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete]
+string LogoutMessage { get; }</code></pre>
   </div>
 
 
@@ -707,6 +739,36 @@ just a temporary state.</p>
   <h4 class="section">Event Type</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.SimpleDataReceivedDelegate.html">SimpleDataReceivedDelegate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Sportradar_LiveData_Sdk_ProtocolProviders_IProtocolProvider_OnLoginFailed" data-uid="Sportradar.LiveData.Sdk.ProtocolProviders.IProtocolProvider.OnLoginFailed">
+  OnLoginFailed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ConnectionProviderDelegates.LoginFailedDelegate OnLoginFailed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.html">ConnectionProviderDelegates</a>.<a class="xref" href="Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.LoginFailedDelegate.html">LoginFailedDelegate</a></dt>
     <dd></dd>
   </dl>
 

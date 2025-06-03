@@ -13,14 +13,19 @@ A minimal configuration looks like this:
     </configSections>
     <Sdk>
         <LiveScout ScoutUsername="xxx" ScoutPassword="xxx" />
+
+        <!-- This line enables JWT based authentication. Currently available only in 1.1.16-beta -->
+        <Auth ClientId="xxx" Kid="xxx" Tenant="xxx" PemPath="xxx" />
     </Sdk>
 </configuration>
 ```
 Sportradar.LiveData.Sdk refers to the Sportradar.LiveData.Sdk.dll file and we named the section "Sdk". xxx are the correct credentials. Note that configSection needs to be on top of the file and you need to provide the actual credentials. For more configuration options please refer to the documentation under Sportradar.LiveData.Sdk.Services.SdkConfiguration section.
 
+> **_NOTE:_** Login option with ScoutUsername and ScoutPassword is going to be deprecated soon and replaced by JWT based authentication, controlled by new Auth section of SDK configuration.
+
 ### Usage
 ##### Add reference to SDK project
-In Visual Studio you first need to add a "Reference" to Sportradar.LiveData.Sdk.dll in the project or install Sportradar.LiveData.Sdk nuget package. The project is built for .NET 4.8 Framework and .NET 6. Intellisense uses the Sportradar.LiveData.Sdk.xml file (located in the same directory as DLL).
+In Visual Studio you first need to add a "Reference" to Sportradar.LiveData.Sdk.dll in the project or install Sportradar.LiveData.Sdk nuget package. The project is built for .NET 4.8 Framework and .NET Core 6. Intellisense uses the Sportradar.LiveData.Sdk.xml file (located in the same directory as DLL).
 ##### Initialize the SDK
 ```C#
 Sdk.Instance.Initialize();
@@ -47,6 +52,7 @@ if (Sdk.Instance.LiveScout != null)
      Sdk.Instance.LiveScout.OnScoutInfo += OnScoutInfo;
      Sdk.Instance.LiveScout.OnMatchBookingReply += OnMatchBookingReply;
      Sdk.Instance.LiveScout.OnMatchData += OnMatchData;
+     Sdk.Instance.LiveScout.OnLoginFailed += OnLoginFailed;
      Sdk.Instance.LiveScout.Start();
 }
 else
@@ -70,6 +76,7 @@ if (Sdk.Instance.LiveScout != null)
      Sdk.Instance.LiveScout.OnScoutInfo -= OnScoutInfo;
      Sdk.Instance.LiveScout.OnMatchBookingReply -= OnMatchBookingReply;
      Sdk.Instance.LiveScout.OnMatchData -= OnMatchData;
+     Sdk.Instance.LiveScout.OnLoginFailed -= OnLoginFailed;
 }
 ```
 ##### Stop the SDK instance and unregister from global SDK events

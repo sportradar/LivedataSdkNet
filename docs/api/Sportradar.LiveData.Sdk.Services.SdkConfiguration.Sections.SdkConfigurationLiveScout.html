@@ -408,7 +408,8 @@ Class SdkConfigurationLiveScout
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool IsInitialized { get; }</code></pre>
   </div>
 
 
@@ -552,7 +553,7 @@ Not settable in the configuration directly.</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[TypeConverter(typeof(SecureStringConverter))]
-[ConfigurationProperty(&quot;ScoutPassword&quot;, IsRequired = true)]
+[ConfigurationProperty(&quot;ScoutPassword&quot;, IsRequired = false)]
 public SecureString ScoutPassword { get; protected set; }</code></pre>
   </div>
 
@@ -585,7 +586,7 @@ public SecureString ScoutPassword { get; protected set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;ScoutUsername&quot;, IsRequired = true)]
+    <pre><code class="lang-csharp hljs">[ConfigurationProperty(&quot;ScoutUsername&quot;, IsRequired = false)]
 public string ScoutUsername { get; protected set; }</code></pre>
   </div>
 

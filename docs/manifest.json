@@ -11,16 +11,6 @@
       }
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "README.md",
-      "output": {
-        ".html": {
-          "relative_path": "README.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Attributes.AssemblyGitBuild.yml",
       "output": {
@@ -296,6 +286,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.DataReceivedOutcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.LoginFailedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Common.Interfaces.ConnectionProviderDelegates.LoginFailedDelegate.html"
         }
       },
       "version": ""
@@ -1502,6 +1502,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.LatencyLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.LatencyLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.MatchBetStatus.yml",
       "output": {
         ".html": {
@@ -1572,10 +1582,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamPlayerStatsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamPlayerStatsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamStatsType.yml",
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TeamStatsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TryCountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Enums.TryCountType.html"
         }
       },
       "version": ""
@@ -1626,6 +1656,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LineupsEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LoginFailedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Events.LoginFailedEventArgs.html"
         }
       },
       "version": ""
@@ -1982,6 +2022,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.SpecificContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.SpecificContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.Statistics.yml",
       "output": {
         ".html": {
@@ -2012,6 +2062,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamPlayerStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamPlayerStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStatistics.yml",
       "output": {
         ".html": {
@@ -2026,6 +2086,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TeamStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TrackCoordinates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.FeedProviders.LiveScout.Types.TrackCoordinates.html"
         }
       },
       "version": ""
@@ -2232,6 +2302,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.jwttoken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.jwttoken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.login.yml",
       "output": {
         ".html": {
@@ -2366,6 +2446,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.servertime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ssotoken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Client.ssotoken.html"
         }
       },
       "version": ""
@@ -2686,6 +2776,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.formatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.fouls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.fouls.html"
         }
       },
       "version": ""
@@ -3362,6 +3462,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.specificcontract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.specificcontract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.specificcontracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.specificcontracts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.sport.yml",
       "output": {
         ".html": {
@@ -3482,6 +3602,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamplayerstats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamplayerstats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamplayerstatsSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teamplayerstatsSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.teams.yml",
       "output": {
         ".html": {
@@ -3546,6 +3686,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.tournament.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.trycount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Providers.Protocols.LiveScout.Server.trycount.html"
         }
       },
       "version": ""
@@ -3636,6 +3786,116 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Service.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.AuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.AuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.BasicAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.BasicAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.CommonIAMSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.CommonIAMSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.CommonIAMTokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.CommonIAMTokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.IAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.IAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.ITokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.ITokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.IamJwtHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.IamJwtHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.JwtAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.JwtAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.TemporaryBlockedAuthException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.TemporaryBlockedAuthException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.TokenData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.TokenData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.Authentication.html"
         }
       },
       "version": ""
@@ -4186,6 +4446,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.ConfigurationElementFeed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sportradar.LiveData.Sdk.Services.SdkConfiguration.Sections.SdkConfigurationAuth.html"
         }
       },
       "version": ""
@@ -4879,49 +5149,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/connection-scheme.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/connection-scheme.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/connection_scheme.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/connection_scheme.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
         }
       },
       "version": ""

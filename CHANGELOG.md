@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.1.16-beta] - 2025-06-02
+Added support for Common IAM authentication.
+
+Introduced a new configuration section, `<Auth>`, which must be placed within the `<Sdk>` element. The required properties are:
+- ClientId
+- Kid
+- Tenant
+- PemPath
+
+Added a new event, `OnLoginFailed`, which can be subscribed to in LiveScoutFeedProvider.
+
+`ScoutUsername` and `ScoutPassword` properties in the LiveScout section of the `app.config` file are now optional.
+
 ## [1.1.15] - 2025-04-08
 Update for MatchFormat - THREEPOINTCONVERSIONYARDLINE has been added to FormatType enum.
 
