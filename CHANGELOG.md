@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.1.19] - 2025-12-10
+- xsd update: "ftvalue" attribute in event element added for basketball unrivaled tournaments
+
+## [1.1.18] - 2025-11-26
+- added Latency Level details for selected tournaments.
+  
+## [1.1.17] - 2025-08-10
+- included unique tournament id
+- added matchlist request id
+  
 ## [1.1.16-beta] - 2025-06-02
 Added support for Common IAM authentication.
 
