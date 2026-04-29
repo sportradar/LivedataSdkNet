@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.1.20] - 2026-04-29
+- Technical Improvement: A bug blocking the interface from receiving a disconnection message is fixed.
+
 ## [1.1.19] - 2025-12-10
 - xsd update: "ftvalue" attribute in event element added for basketball unrivaled tournaments
 
